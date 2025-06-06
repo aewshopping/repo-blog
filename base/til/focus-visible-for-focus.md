@@ -1,6 +1,6 @@
 ---
 date: 2025-01-30
-tag: css
+tags: css
 title: focus-visible is a good way to register focus state
 ---
 focus-visible is a good way to register focus state. This is because it uses the browser engine to figure out when to indicate the focus state ie not when on a mouse click or touch event.

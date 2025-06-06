@@ -1,6 +1,6 @@
 ---
 date: 2025-01-30
-tag: css
+tags: css
 title: Tweaking colour to some other colour in css
 ---
 For example, changing the html colour green into something 'greener': 

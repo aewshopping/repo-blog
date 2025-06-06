@@ -1,6 +1,6 @@
 ---
 date: 2025-01-26
-tag: [css, html]
+tags: [css, html]
 title: How to style html details elements with css
 ---
 A bit of a pain to get the details styling right.

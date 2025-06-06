@@ -1,6 +1,6 @@
 ---
 date: 2025-01-23
-tag: [regex, javascript]
+tags: [regex, javascript]
 title: matchAll output from javascript is like this
 ---
 If you convert to an array, first element is the first match then the following elements are the capturing groups sequentially.

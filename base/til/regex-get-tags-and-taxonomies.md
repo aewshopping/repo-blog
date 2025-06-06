@@ -1,6 +1,6 @@
 ---
 date: 2025-01-21
-tag: regex
+tags: regex
 title: How to use regex to capture tags and taxonomies
 ---
 String like `#parent/child`

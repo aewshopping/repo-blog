@@ -1,6 +1,6 @@
 ---
 date: 2025-01-28
-tag: css
+tags: css
 title: Simple colour mode option in css with has selector
 ---
 Set css variables and apply to body element depending on value of checked input (below eg is a select input).

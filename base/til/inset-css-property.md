@@ -1,6 +1,6 @@
 ---
 date: 2025-01-27
-tag: css
+tags: css
 title: How to set top left bottom right in css with one inset property
 ---
 
