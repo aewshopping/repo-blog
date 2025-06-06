@@ -4,5 +4,4 @@ export default async function(eleventyConfig) {
     eleventyConfig.setInputDirectory("base");
 
     eleventyConfig.setOutputDirectory("");
-
 };
