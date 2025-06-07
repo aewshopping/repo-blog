@@ -10,10 +10,10 @@ I wanted to load some data from an API at build time using the eleventy `_data/m
 I then want to output this json directly as a json file, to be referenced later by the website. The solution was:
 
 ```yaml
-/
+line
 permalink: '/data/quotes.json'
 eleventyExcludeFromCollections: true
-/
+line
 
 {{ mydata | dump | safe }}
 ```
