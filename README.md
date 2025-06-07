@@ -6,32 +6,32 @@ Below is an index of markdown notes stored in the [notes directory](/base/notes/
 
 All markdown notes in the notes directory will be indexed. Using other file types or trying to use sub-directories in the notes folder will mean broken links due to the way links are being constructed - this is an easily-solveable-but-not-yet-solved problem!
 
-`all`&nbsp;`css`&nbsp;`eleventy`&nbsp;`html`&nbsp;`javascript`&nbsp;`nunjucks`&nbsp;`regex`&nbsp;
+[`all`](#nunjucks-tag-1-notes)&nbsp;[`css`](#nunjucks-tag-1-notes)&nbsp;[`eleventy`](#nunjucks-tag-1-notes)&nbsp;[`html`](#nunjucks-tag-1-notes)&nbsp;[`javascript`](#nunjucks-tag-1-notes)&nbsp;[`nunjucks`](#nunjucks-tag-1-notes)&nbsp;[`regex`](#nunjucks-tag-1-notes)&nbsp;
 
 <details>
 <summary>
 
 ## `all` tag (9 notes)</summary>
-- [How to output a json file from a raw json object with eleventy](/base/notes/json-file-from-eleventy.md) (19 January 2025) `eleventy` `nunjucks` `javascript`
-- [How to use regex to capture tags and taxonomies](/base/notes/regex-get-tags-and-taxonomies.md) (21 January 2025) `regex`
-- [matchAll output from javascript is like this](/base/notes/matchall-array-output.md) (23 January 2025) `regex` `javascript`
-- [How to style html details elements with css](/base/notes/styling-details-element-css.md) (26 January 2025) `css` `html`
-- [How to set top left bottom right in css with one inset property](/base/notes/inset-css-property.md) (27 January 2025) `css`
-- [Simple colour mode option in css with has selector](/base/notes/simple-colour-mode-with-has-css.md) (28 January 2025) `css`
-- [Tweaking colour to some other colour in css](/base/notes/css-tweak-colour.md) (30 January 2025) `css`
-- [focus-visible is a good way to register focus state](/base/notes/focus-visible-for-focus.md) (30 January 2025) `css`
 - [css paragraph text height](/base/notes/css-para-height.md) (31 March 2025) `css`
+- [focus-visible is a good way to register focus state](/base/notes/focus-visible-for-focus.md) (30 January 2025) `css`
+- [Tweaking colour to some other colour in css](/base/notes/css-tweak-colour.md) (30 January 2025) `css`
+- [Simple colour mode option in css with has selector](/base/notes/simple-colour-mode-with-has-css.md) (28 January 2025) `css`
+- [How to set top left bottom right in css with one inset property](/base/notes/inset-css-property.md) (27 January 2025) `css`
+- [How to style html details elements with css](/base/notes/styling-details-element-css.md) (26 January 2025) `css` `html`
+- [matchAll output from javascript is like this](/base/notes/matchall-array-output.md) (23 January 2025) `regex` `javascript`
+- [How to use regex to capture tags and taxonomies](/base/notes/regex-get-tags-and-taxonomies.md) (21 January 2025) `regex`
+- [How to output a json file from a raw json object with eleventy](/base/notes/json-file-from-eleventy.md) (19 January 2025) `eleventy` `nunjucks` `javascript`
 </details>
 <details>
 <summary>
 
 ## `css` tag (6 notes)</summary>
-- [How to style html details elements with css](/base/notes/styling-details-element-css.md) (26 January 2025) `css` `html`
-- [How to set top left bottom right in css with one inset property](/base/notes/inset-css-property.md) (27 January 2025) `css`
-- [Simple colour mode option in css with has selector](/base/notes/simple-colour-mode-with-has-css.md) (28 January 2025) `css`
-- [Tweaking colour to some other colour in css](/base/notes/css-tweak-colour.md) (30 January 2025) `css`
-- [focus-visible is a good way to register focus state](/base/notes/focus-visible-for-focus.md) (30 January 2025) `css`
 - [css paragraph text height](/base/notes/css-para-height.md) (31 March 2025) `css`
+- [focus-visible is a good way to register focus state](/base/notes/focus-visible-for-focus.md) (30 January 2025) `css`
+- [Tweaking colour to some other colour in css](/base/notes/css-tweak-colour.md) (30 January 2025) `css`
+- [Simple colour mode option in css with has selector](/base/notes/simple-colour-mode-with-has-css.md) (28 January 2025) `css`
+- [How to set top left bottom right in css with one inset property](/base/notes/inset-css-property.md) (27 January 2025) `css`
+- [How to style html details elements with css](/base/notes/styling-details-element-css.md) (26 January 2025) `css` `html`
 </details>
 <details>
 <summary>
@@ -49,8 +49,8 @@ All markdown notes in the notes directory will be indexed. Using other file type
 <summary>
 
 ## `javascript` tag (2 notes)</summary>
-- [How to output a json file from a raw json object with eleventy](/base/notes/json-file-from-eleventy.md) (19 January 2025) `eleventy` `nunjucks` `javascript`
 - [matchAll output from javascript is like this](/base/notes/matchall-array-output.md) (23 January 2025) `regex` `javascript`
+- [How to output a json file from a raw json object with eleventy](/base/notes/json-file-from-eleventy.md) (19 January 2025) `eleventy` `nunjucks` `javascript`
 </details>
 <details>
 <summary>
@@ -62,6 +62,6 @@ All markdown notes in the notes directory will be indexed. Using other file type
 <summary>
 
 ## `regex` tag (2 notes)</summary>
-- [How to use regex to capture tags and taxonomies](/base/notes/regex-get-tags-and-taxonomies.md) (21 January 2025) `regex`
 - [matchAll output from javascript is like this](/base/notes/matchall-array-output.md) (23 January 2025) `regex` `javascript`
+- [How to use regex to capture tags and taxonomies](/base/notes/regex-get-tags-and-taxonomies.md) (21 January 2025) `regex`
 </details>
