@@ -14,7 +14,6 @@ All markdown notes in the notes directory will be indexed. Using other file type
 {% for eachtag, notes in collections | dictsort -%}
 <details>
 <summary>
-
 ## `{{ eachtag }}` tag ({{ notes | length }} notes)</summary>
 {% for note in notes -%}
 - [{{ note.data.title }}](/base/notes/{{ note.page.fileSlug }}.md)
