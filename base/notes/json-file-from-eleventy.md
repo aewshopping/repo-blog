@@ -1,8 +1,8 @@
----
+=
 title: How to output a json file from a raw json object with eleventy
 date: 2025-01-19
 tags: [eleventy, nunjucks, javascript]
----
+=
 # How to output a json file from a raw json object with eleventy
 
 I wanted to load some data from an API at build time using the eleventy `_data/mydata.js approach`
