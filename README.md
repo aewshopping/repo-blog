@@ -8,12 +8,12 @@ This page shows an index of markdown notes stored in the [notes directory](/base
 
 All markdown notes in the `notes` directory will be indexed. Using other file types or trying to use sub-directories in the notes folder will mean broken links due to the way links are being constructed - this is an easily-solveable-but-not-yet-solved problem!
 
-[`all`](#all-tag-9-notes)&nbsp;[`css`](#css-tag-6-notes)&nbsp;[`eleventy`](#eleventy-tag-1-notes)&nbsp;[`html`](#html-tag-1-notes)&nbsp;[`javascript`](#javascript-tag-2-notes)&nbsp;[`nunjucks`](#nunjucks-tag-1-notes)&nbsp;[`regex`](#regex-tag-2-notes)&nbsp;
+[`all`](#all-tag-11-notes)&nbsp;[`css`](#css-tag-6-notes)&nbsp;[`eleventy`](#eleventy-tag-1-notes)&nbsp;[`html`](#html-tag-1-notes)&nbsp;[`javascript`](#javascript-tag-4-notes)&nbsp;[`nunjucks`](#nunjucks-tag-1-notes)&nbsp;[`regex`](#regex-tag-3-notes)&nbsp;
 
 <details>
 <summary>
 
-## `all` tag (9 notes)</summary>
+## `all` tag (11 notes)</summary>
 - [css paragraph text height](/base/notes/css-para-height.md) (31 March 2025) `css`
 - [focus-visible is a good way to register focus state](/base/notes/focus-visible-for-focus.md) (30 January 2025) `css`
 - [Tweaking colour to some other colour in css](/base/notes/css-tweak-colour.md) (30 January 2025) `css`
@@ -22,6 +22,8 @@ All markdown notes in the `notes` directory will be indexed. Using other file ty
 - [How to style html details elements with css](/base/notes/styling-details-element-css.md) (26 January 2025) `css` `html`
 - [matchAll output from javascript is like this](/base/notes/matchall-array-output.md) (23 January 2025) `regex` `javascript`
 - [How to use regex to capture tags and taxonomies](/base/notes/regex-get-tags-and-taxonomies.md) (21 January 2025) `regex`
+- [How to use &quot;For loops&quot; to access values in JavaScript object and arrays](/base/notes/loops-javascript-objects-and-arrays.md) (21 January 2025) `javascript`
+- [How to find all instances of match pattern in regex using JavaScript](/base/notes/find-all-match-regex.md) (20 January 2025) `regex` `javascript`
 - [How to output a json file from a raw json object with eleventy](/base/notes/json-file-from-eleventy.md) (19 January 2025) `eleventy` `nunjucks` `javascript`
 </details>
 <details>
@@ -50,8 +52,10 @@ All markdown notes in the `notes` directory will be indexed. Using other file ty
 <details>
 <summary>
 
-## `javascript` tag (2 notes)</summary>
+## `javascript` tag (4 notes)</summary>
 - [matchAll output from javascript is like this](/base/notes/matchall-array-output.md) (23 January 2025) `regex` `javascript`
+- [How to use &quot;For loops&quot; to access values in JavaScript object and arrays](/base/notes/loops-javascript-objects-and-arrays.md) (21 January 2025) `javascript`
+- [How to find all instances of match pattern in regex using JavaScript](/base/notes/find-all-match-regex.md) (20 January 2025) `regex` `javascript`
 - [How to output a json file from a raw json object with eleventy](/base/notes/json-file-from-eleventy.md) (19 January 2025) `eleventy` `nunjucks` `javascript`
 </details>
 <details>
@@ -63,7 +67,8 @@ All markdown notes in the `notes` directory will be indexed. Using other file ty
 <details>
 <summary>
 
-## `regex` tag (2 notes)</summary>
+## `regex` tag (3 notes)</summary>
 - [matchAll output from javascript is like this](/base/notes/matchall-array-output.md) (23 January 2025) `regex` `javascript`
 - [How to use regex to capture tags and taxonomies](/base/notes/regex-get-tags-and-taxonomies.md) (21 January 2025) `regex`
+- [How to find all instances of match pattern in regex using JavaScript](/base/notes/find-all-match-regex.md) (20 January 2025) `regex` `javascript`
 </details>
