@@ -22,7 +22,7 @@ All markdown notes in the `notes` directory will be indexed. Using other file ty
 <summary>
 
 ### `{{ eachtag }}` ({{ notes | length }})</summary>
-#### Notes with `{{ eachtag }}` tag
+#### Notes with {{ eachtag }} tag
 {% for note in notes | reverse -%}
 - [{{ note.data.title }}](/base/notes/{{ note.page.fileSlug }}.md) ({{ note.page.date | myDate }})
   {%- for tag in note.data.tags %} `{{ tag }}`{% endfor %}
