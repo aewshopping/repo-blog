@@ -8,12 +8,18 @@ This page shows an index of markdown notes stored in the [notes directory](/base
 
 All markdown notes in the `notes` directory will be indexed. Using other file types or trying to use sub-directories in the notes folder will mean broken links due to the way links are being constructed - this is an easily-solveable-but-not-yet-solved problem!
 
-[`all`](#all-tag-11-notes)&nbsp;[`css`](#css-tag-6-notes)&nbsp;[`eleventy`](#eleventy-tag-1-notes)&nbsp;[`html`](#html-tag-1-notes)&nbsp;[`javascript`](#javascript-tag-4-notes)&nbsp;[`nunjucks`](#nunjucks-tag-1-notes)&nbsp;[`regex`](#regex-tag-3-notes)&nbsp;
+[`airtable`](#airtable-tag-1-notes)&nbsp;[`all`](#all-tag-22-notes)&nbsp;[`css`](#css-tag-6-notes)&nbsp;[`csv`](#csv-tag-1-notes)&nbsp;[`eleventy`](#eleventy-tag-1-notes)&nbsp;[`googlesheets`](#googlesheets-tag-1-notes)&nbsp;[`html`](#html-tag-2-notes)&nbsp;[`javascript`](#javascript-tag-7-notes)&nbsp;[`nunjucks`](#nunjucks-tag-1-notes)&nbsp;[`regex`](#regex-tag-5-notes)&nbsp;[`sqlite`](#sqlite-tag-5-notes)&nbsp;[`tsv`](#tsv-tag-1-notes)&nbsp;
 
 <details>
 <summary>
 
-## `all` tag (11 notes)</summary>
+## `airtable` tag (1 notes)</summary>
+- [Regex is implemented differently in different contexts](/base/notes/regex-different-implementations.md) (11 January 2025) `regex` `airtable`
+</details>
+<details>
+<summary>
+
+## `all` tag (22 notes)</summary>
 - [css paragraph text height](/base/notes/css-para-height.md) (31 March 2025) `css`
 - [focus-visible is a good way to register focus state](/base/notes/focus-visible-for-focus.md) (30 January 2025) `css`
 - [Tweaking colour to some other colour in css](/base/notes/css-tweak-colour.md) (30 January 2025) `css`
@@ -25,6 +31,17 @@ All markdown notes in the `notes` directory will be indexed. Using other file ty
 - [How to use &quot;For loops&quot; to access values in JavaScript object and arrays](/base/notes/loops-javascript-objects-and-arrays.md) (21 January 2025) `javascript`
 - [How to find all instances of match pattern in regex using JavaScript](/base/notes/find-all-match-regex.md) (20 January 2025) `regex` `javascript`
 - [How to output a json file from a raw json object with eleventy](/base/notes/json-file-from-eleventy.md) (19 January 2025) `eleventy` `nunjucks` `javascript`
+- [How to us regex to wrap text paragraphs in &lt;p&gt; tags](/base/notes/regex-wrap-para.md) (17 January 2025) `regex` `javascript`
+- [JavaScript find in string method returns -1 if no match found](/base/notes/js-find-string-result.md) (15 January 2025) `javascript`
+- [You can select a random row from an sqlite table but there are faster and slower ways to do it](/base/notes/select-random-row-sqlit.md) (14 January 2025) `sqlite`
+- [Links with text fragments can link to specific text on a webpage](/base/notes/html-text-frags.md) (13 January 2025) `html` `javascript`
+- [Regex is implemented differently in different contexts](/base/notes/regex-different-implementations.md) (11 January 2025) `regex` `airtable`
+- [You can use a map function together with lambda function in Googlesheets to apply a formula to every cell in an array](/base/notes/googlesheets-lambda-function.md) (10 January 2025) `googlesheets`
+- [csv files cannot contain line breaks in a field entry](/base/notes/csv-no-line-breaks-in-cell.md) (10 January 2025) `csv` `tsv`
+- [You can&#39;t change column names in a table in SQLite unless you have version greater than 3.25.0](/base/notes/sqlite-rename-column-challenge.md) (9 January 2025) `sqlite`
+- [You can&#39;t change the type of a column in sqlite, you have to create a new table with the column type you want and copy it across](/base/notes/sqlite-cant-change-column-type.md) (9 January 2025) `sqlite`
+- [There is no date type in SQLite](/base/notes/sqlite-no-date-type.md) (8 January 2025) `sqlite`
+- [SQLite is loosely typed ie pretty much any type of data can go in any column](/base/notes/sqlite-is-loosely-typed.md) (8 January 2025) `sqlite`
 </details>
 <details>
 <summary>
@@ -40,23 +57,39 @@ All markdown notes in the `notes` directory will be indexed. Using other file ty
 <details>
 <summary>
 
+## `csv` tag (1 notes)</summary>
+- [csv files cannot contain line breaks in a field entry](/base/notes/csv-no-line-breaks-in-cell.md) (10 January 2025) `csv` `tsv`
+</details>
+<details>
+<summary>
+
 ## `eleventy` tag (1 notes)</summary>
 - [How to output a json file from a raw json object with eleventy](/base/notes/json-file-from-eleventy.md) (19 January 2025) `eleventy` `nunjucks` `javascript`
 </details>
 <details>
 <summary>
 
-## `html` tag (1 notes)</summary>
-- [How to style html details elements with css](/base/notes/styling-details-element-css.md) (26 January 2025) `css` `html`
+## `googlesheets` tag (1 notes)</summary>
+- [You can use a map function together with lambda function in Googlesheets to apply a formula to every cell in an array](/base/notes/googlesheets-lambda-function.md) (10 January 2025) `googlesheets`
 </details>
 <details>
 <summary>
 
-## `javascript` tag (4 notes)</summary>
+## `html` tag (2 notes)</summary>
+- [How to style html details elements with css](/base/notes/styling-details-element-css.md) (26 January 2025) `css` `html`
+- [Links with text fragments can link to specific text on a webpage](/base/notes/html-text-frags.md) (13 January 2025) `html` `javascript`
+</details>
+<details>
+<summary>
+
+## `javascript` tag (7 notes)</summary>
 - [matchAll output from javascript is like this](/base/notes/matchall-array-output.md) (23 January 2025) `regex` `javascript`
 - [How to use &quot;For loops&quot; to access values in JavaScript object and arrays](/base/notes/loops-javascript-objects-and-arrays.md) (21 January 2025) `javascript`
 - [How to find all instances of match pattern in regex using JavaScript](/base/notes/find-all-match-regex.md) (20 January 2025) `regex` `javascript`
 - [How to output a json file from a raw json object with eleventy](/base/notes/json-file-from-eleventy.md) (19 January 2025) `eleventy` `nunjucks` `javascript`
+- [How to us regex to wrap text paragraphs in &lt;p&gt; tags](/base/notes/regex-wrap-para.md) (17 January 2025) `regex` `javascript`
+- [JavaScript find in string method returns -1 if no match found](/base/notes/js-find-string-result.md) (15 January 2025) `javascript`
+- [Links with text fragments can link to specific text on a webpage](/base/notes/html-text-frags.md) (13 January 2025) `html` `javascript`
 </details>
 <details>
 <summary>
@@ -67,8 +100,26 @@ All markdown notes in the `notes` directory will be indexed. Using other file ty
 <details>
 <summary>
 
-## `regex` tag (3 notes)</summary>
+## `regex` tag (5 notes)</summary>
 - [matchAll output from javascript is like this](/base/notes/matchall-array-output.md) (23 January 2025) `regex` `javascript`
 - [How to use regex to capture tags and taxonomies](/base/notes/regex-get-tags-and-taxonomies.md) (21 January 2025) `regex`
 - [How to find all instances of match pattern in regex using JavaScript](/base/notes/find-all-match-regex.md) (20 January 2025) `regex` `javascript`
+- [How to us regex to wrap text paragraphs in &lt;p&gt; tags](/base/notes/regex-wrap-para.md) (17 January 2025) `regex` `javascript`
+- [Regex is implemented differently in different contexts](/base/notes/regex-different-implementations.md) (11 January 2025) `regex` `airtable`
+</details>
+<details>
+<summary>
+
+## `sqlite` tag (5 notes)</summary>
+- [You can select a random row from an sqlite table but there are faster and slower ways to do it](/base/notes/select-random-row-sqlit.md) (14 January 2025) `sqlite`
+- [You can&#39;t change column names in a table in SQLite unless you have version greater than 3.25.0](/base/notes/sqlite-rename-column-challenge.md) (9 January 2025) `sqlite`
+- [You can&#39;t change the type of a column in sqlite, you have to create a new table with the column type you want and copy it across](/base/notes/sqlite-cant-change-column-type.md) (9 January 2025) `sqlite`
+- [There is no date type in SQLite](/base/notes/sqlite-no-date-type.md) (8 January 2025) `sqlite`
+- [SQLite is loosely typed ie pretty much any type of data can go in any column](/base/notes/sqlite-is-loosely-typed.md) (8 January 2025) `sqlite`
+</details>
+<details>
+<summary>
+
+## `tsv` tag (1 notes)</summary>
+- [csv files cannot contain line breaks in a field entry](/base/notes/csv-no-line-breaks-in-cell.md) (10 January 2025) `csv` `tsv`
 </details>
