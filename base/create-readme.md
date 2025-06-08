@@ -26,7 +26,7 @@ All markdown notes in the `notes` directory will be indexed. Using other file ty
 - [{{ note.data.title }}](/base/notes/{{ note.page.fileSlug }}.md) ({{ note.page.date | myDate }})
   {%- for tag in note.data.tags %} `{{ tag }}`{% endfor -%}
 {% endif %}
-{% endfor %}
+{%- endfor %}
 
 ## Notes grouped by tag
 

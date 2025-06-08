@@ -14,38 +14,15 @@ All markdown notes in the `notes` directory will be indexed. Using other file ty
 
 ## Most recent notes
 - [Render a list of all tags in eleventy](/base/notes/eleventy-iterate-tags.md) (8 June 2025) `eleventy` `nunjucks`
-
 - [css paragraph text height](/base/notes/css-para-height.md) (31 March 2025) `css`
-
 - [focus-visible is a good way to register focus state](/base/notes/focus-visible-for-focus.md) (30 January 2025) `css`
-
 - [Tweaking colour to some other colour in css](/base/notes/css-tweak-colour.md) (30 January 2025) `css`
-
 - [Simple colour mode option in css with has selector](/base/notes/simple-colour-mode-with-has-css.md) (28 January 2025) `css`
-
 - [How to set top left bottom right in css with one inset property](/base/notes/inset-css-property.md) (27 January 2025) `css`
-
 - [How to style html details elements with css](/base/notes/styling-details-element-css.md) (26 January 2025) `css` `html`
-
 - [matchAll output from javascript is like this](/base/notes/matchall-array-output.md) (23 January 2025) `regex` `javascript`
-
 - [How to use regex to capture tags and taxonomies](/base/notes/regex-get-tags-and-taxonomies.md) (21 January 2025) `regex`
-
 - [How to use &quot;For loops&quot; to access values in JavaScript object and arrays](/base/notes/loops-javascript-objects-and-arrays.md) (21 January 2025) `javascript`
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## Notes grouped by tag
 
