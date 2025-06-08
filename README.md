@@ -8,7 +8,7 @@ This page shows an index of markdown notes stored in the [notes directory](/base
 
 All markdown notes in the `notes` directory will be indexed. Using other file types or trying to use sub-directories in the notes folder will mean broken links due to the way links are being constructed - this is an easily-solveable-but-not-yet-solved problem!
 
-[`airtable`](#Notes with airtable tag)&nbsp;[`all`](#Notes with all tag)&nbsp;[`css`](#Notes with css tag)&nbsp;[`csv`](#Notes with csv tag)&nbsp;[`eleventy`](#Notes with eleventy tag)&nbsp;[`googlesheets`](#Notes with googlesheets tag)&nbsp;[`html`](#Notes with html tag)&nbsp;[`javascript`](#Notes with javascript tag)&nbsp;[`nunjucks`](#Notes with nunjucks tag)&nbsp;[`regex`](#Notes with regex tag)&nbsp;[`sqlite`](#Notes with sqlite tag)&nbsp;[`tsv`](#Notes with tsv tag)&nbsp;
+[`airtable`](#Notes%20with%20airtable%20tag)&nbsp;[`all`](#Notes%20with%20all%20tag)&nbsp;[`css`](#Notes%20with%20css%20tag)&nbsp;[`csv`](#Notes%20with%20csv%20tag)&nbsp;[`eleventy`](#Notes%20with%20eleventy%20tag)&nbsp;[`googlesheets`](#Notes%20with%20googlesheets%20tag)&nbsp;[`html`](#Notes%20with%20html%20tag)&nbsp;[`javascript`](#Notes%20with%20javascript%20tag)&nbsp;[`nunjucks`](#Notes%20with%20nunjucks%20tag)&nbsp;[`regex`](#Notes%20with%20regex%20tag)&nbsp;[`sqlite`](#Notes%20with%20sqlite%20tag)&nbsp;[`tsv`](#Notes%20with%20tsv%20tag)&nbsp;
 
 <details>
 <summary>
