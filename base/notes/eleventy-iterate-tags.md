@@ -1,5 +1,5 @@
 ---
-date: 2025.06.08
+date: 2025-06-08
 tags: [eleventy, nunjucks]
 title: Render a list of all tags in eleventy 
 ---
