@@ -14,7 +14,7 @@ This page shows an index of markdown notes stored in the [notes directory](/base
 All markdown notes in the `notes` directory will be indexed. Using other file types or trying to use sub-directories in the notes folder will mean broken links due to the way links are being constructed - this is an easily-solveable-but-not-yet-solved problem!
 
 {% for eachtag, notes in collections | dictsort -%}
-[`{{ eachtag }}`](#Notes-with-{{ eachtag }}-tag)&nbsp;
+[`{{ eachtag }}`](#{{ eachtag }} ({{ notes | length }}))&nbsp;
 {%- endfor %}
 
 {% for eachtag, notes in collections | dictsort -%}
@@ -22,10 +22,10 @@ All markdown notes in the `notes` directory will be indexed. Using other file ty
 <summary>
 
 ### `{{ eachtag }}` ({{ notes | length }})</summary>
-#### Notes with {{ eachtag }} tag
 {% for note in notes | reverse -%}
 - [{{ note.data.title }}](/base/notes/{{ note.page.fileSlug }}.md) ({{ note.page.date | myDate }})
   {%- for tag in note.data.tags %} `{{ tag }}`{% endfor %}
 {% endfor -%}
+---
 </details>
 {% endfor -%}
