@@ -8,18 +8,20 @@ This page shows an index of markdown notes stored in the [notes directory](/base
 
 All markdown notes in the `notes` directory will be indexed. Using other file types or trying to use sub-directories in the notes folder will mean broken links due to the way links are being constructed - this is an easily-solveable-but-not-yet-solved problem!
 
-[`airtable`](#airtable-tag-1)&nbsp;[`all`](#all-tag-22)&nbsp;[`css`](#css-tag-6)&nbsp;[`csv`](#csv-tag-1)&nbsp;[`eleventy`](#eleventy-tag-1)&nbsp;[`googlesheets`](#googlesheets-tag-1)&nbsp;[`html`](#html-tag-2)&nbsp;[`javascript`](#javascript-tag-7)&nbsp;[`nunjucks`](#nunjucks-tag-1)&nbsp;[`regex`](#regex-tag-5)&nbsp;[`sqlite`](#sqlite-tag-5)&nbsp;[`tsv`](#tsv-tag-1)&nbsp;
+[`airtable`](#Notes with airtable tag)&nbsp;[`all`](#Notes with all tag)&nbsp;[`css`](#Notes with css tag)&nbsp;[`csv`](#Notes with csv tag)&nbsp;[`eleventy`](#Notes with eleventy tag)&nbsp;[`googlesheets`](#Notes with googlesheets tag)&nbsp;[`html`](#Notes with html tag)&nbsp;[`javascript`](#Notes with javascript tag)&nbsp;[`nunjucks`](#Notes with nunjucks tag)&nbsp;[`regex`](#Notes with regex tag)&nbsp;[`sqlite`](#Notes with sqlite tag)&nbsp;[`tsv`](#Notes with tsv tag)&nbsp;
 
 <details>
 <summary>
 
-### `airtable` tag (1)</summary>
+### `airtable` (1)</summary>
+#### Notes with `airtable` tag
 - [Regex is implemented differently in different contexts](/base/notes/regex-different-implementations.md) (11 January 2025) `regex` `airtable`
 </details>
 <details>
 <summary>
 
-### `all` tag (22)</summary>
+### `all` (22)</summary>
+#### Notes with `all` tag
 - [css paragraph text height](/base/notes/css-para-height.md) (31 March 2025) `css`
 - [focus-visible is a good way to register focus state](/base/notes/focus-visible-for-focus.md) (30 January 2025) `css`
 - [Tweaking colour to some other colour in css](/base/notes/css-tweak-colour.md) (30 January 2025) `css`
@@ -46,7 +48,8 @@ All markdown notes in the `notes` directory will be indexed. Using other file ty
 <details>
 <summary>
 
-### `css` tag (6)</summary>
+### `css` (6)</summary>
+#### Notes with `css` tag
 - [css paragraph text height](/base/notes/css-para-height.md) (31 March 2025) `css`
 - [focus-visible is a good way to register focus state](/base/notes/focus-visible-for-focus.md) (30 January 2025) `css`
 - [Tweaking colour to some other colour in css](/base/notes/css-tweak-colour.md) (30 January 2025) `css`
@@ -57,32 +60,37 @@ All markdown notes in the `notes` directory will be indexed. Using other file ty
 <details>
 <summary>
 
-### `csv` tag (1)</summary>
+### `csv` (1)</summary>
+#### Notes with `csv` tag
 - [csv files cannot contain line breaks in a field entry](/base/notes/csv-no-line-breaks-in-cell.md) (10 January 2025) `csv` `tsv`
 </details>
 <details>
 <summary>
 
-### `eleventy` tag (1)</summary>
+### `eleventy` (1)</summary>
+#### Notes with `eleventy` tag
 - [How to output a json file from a raw json object with eleventy](/base/notes/json-file-from-eleventy.md) (19 January 2025) `eleventy` `nunjucks` `javascript`
 </details>
 <details>
 <summary>
 
-### `googlesheets` tag (1)</summary>
+### `googlesheets` (1)</summary>
+#### Notes with `googlesheets` tag
 - [You can use a map function together with lambda function in Googlesheets to apply a formula to every cell in an array](/base/notes/googlesheets-lambda-function.md) (10 January 2025) `googlesheets`
 </details>
 <details>
 <summary>
 
-### `html` tag (2)</summary>
+### `html` (2)</summary>
+#### Notes with `html` tag
 - [How to style html details elements with css](/base/notes/styling-details-element-css.md) (26 January 2025) `css` `html`
 - [Links with text fragments can link to specific text on a webpage](/base/notes/html-text-frags.md) (13 January 2025) `html` `javascript`
 </details>
 <details>
 <summary>
 
-### `javascript` tag (7)</summary>
+### `javascript` (7)</summary>
+#### Notes with `javascript` tag
 - [matchAll output from javascript is like this](/base/notes/matchall-array-output.md) (23 January 2025) `regex` `javascript`
 - [How to use &quot;For loops&quot; to access values in JavaScript object and arrays](/base/notes/loops-javascript-objects-and-arrays.md) (21 January 2025) `javascript`
 - [How to find all instances of match pattern in regex using JavaScript](/base/notes/find-all-match-regex.md) (20 January 2025) `regex` `javascript`
@@ -94,13 +102,15 @@ All markdown notes in the `notes` directory will be indexed. Using other file ty
 <details>
 <summary>
 
-### `nunjucks` tag (1)</summary>
+### `nunjucks` (1)</summary>
+#### Notes with `nunjucks` tag
 - [How to output a json file from a raw json object with eleventy](/base/notes/json-file-from-eleventy.md) (19 January 2025) `eleventy` `nunjucks` `javascript`
 </details>
 <details>
 <summary>
 
-### `regex` tag (5)</summary>
+### `regex` (5)</summary>
+#### Notes with `regex` tag
 - [matchAll output from javascript is like this](/base/notes/matchall-array-output.md) (23 January 2025) `regex` `javascript`
 - [How to use regex to capture tags and taxonomies](/base/notes/regex-get-tags-and-taxonomies.md) (21 January 2025) `regex`
 - [How to find all instances of match pattern in regex using JavaScript](/base/notes/find-all-match-regex.md) (20 January 2025) `regex` `javascript`
@@ -110,7 +120,8 @@ All markdown notes in the `notes` directory will be indexed. Using other file ty
 <details>
 <summary>
 
-### `sqlite` tag (5)</summary>
+### `sqlite` (5)</summary>
+#### Notes with `sqlite` tag
 - [You can select a random row from an sqlite table but there are faster and slower ways to do it](/base/notes/select-random-row-sqlit.md) (14 January 2025) `sqlite`
 - [You can&#39;t change column names in a table in SQLite unless you have version greater than 3.25.0](/base/notes/sqlite-rename-column-challenge.md) (9 January 2025) `sqlite`
 - [You can&#39;t change the type of a column in sqlite, you have to create a new table with the column type you want and copy it across](/base/notes/sqlite-cant-change-column-type.md) (9 January 2025) `sqlite`
@@ -120,6 +131,7 @@ All markdown notes in the `notes` directory will be indexed. Using other file ty
 <details>
 <summary>
 
-### `tsv` tag (1)</summary>
+### `tsv` (1)</summary>
+#### Notes with `tsv` tag
 - [csv files cannot contain line breaks in a field entry](/base/notes/csv-no-line-breaks-in-cell.md) (10 January 2025) `csv` `tsv`
 </details>
