@@ -8,7 +8,7 @@ This page shows an index of markdown notes stored in the [notes directory](/base
 
 All markdown notes in the `notes` directory will be indexed. Using other file types or trying to use sub-directories in the notes folder will mean broken links due to the way links are being constructed - this is an easily-solveable-but-not-yet-solved problem!
 
-[`airtable`](#airtable (1))&nbsp;[`all`](#all (22))&nbsp;[`css`](#css (6))&nbsp;[`csv`](#csv (1))&nbsp;[`eleventy`](#eleventy (1))&nbsp;[`googlesheets`](#googlesheets (1))&nbsp;[`html`](#html (2))&nbsp;[`javascript`](#javascript (7))&nbsp;[`nunjucks`](#nunjucks (1))&nbsp;[`regex`](#regex (5))&nbsp;[`sqlite`](#sqlite (5))&nbsp;[`tsv`](#tsv (1))&nbsp;
+[`airtable`](#airtable-1)&nbsp;[`all`](#all-22)&nbsp;[`css`](#css-6)&nbsp;[`csv`](#csv-1)&nbsp;[`eleventy`](#eleventy-1)&nbsp;[`googlesheets`](#googlesheets-1)&nbsp;[`html`](#html-2)&nbsp;[`javascript`](#javascript-7)&nbsp;[`nunjucks`](#nunjucks-1)&nbsp;[`regex`](#regex-5)&nbsp;[`sqlite`](#sqlite-5)&nbsp;[`tsv`](#tsv-1)&nbsp;
 
 <details>
 <summary>
