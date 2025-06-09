@@ -10,10 +10,11 @@ All markdown notes in the `notes` directory will be indexed. Using other file ty
 
 ## Tags used
 
-[`airtable`](#airtable-1)&#8197;[`all`](#all-23)&#8197;[`css`](#css-6)&#8197;[`csv`](#csv-1)&#8197;[`eleventy`](#eleventy-2)&#8197;[`googlesheets`](#googlesheets-1)&#8197;[`html`](#html-2)&#8197;[`javascript`](#javascript-7)&#8197;[`nunjucks`](#nunjucks-2)&#8197;[`regex`](#regex-5)&#8197;[`sqlite`](#sqlite-5)&#8197;[`tsv`](#tsv-1)&#8197;
+[`airtable`](#airtable-1)&#8197;[`all`](#all-24)&#8197;[`css`](#css-6)&#8197;[`csv`](#csv-1)&#8197;[`eleventy`](#eleventy-3)&#8197;[`googlesheets`](#googlesheets-1)&#8197;[`html`](#html-2)&#8197;[`javascript`](#javascript-7)&#8197;[`nunjucks`](#nunjucks-2)&#8197;[`regex`](#regex-5)&#8197;[`sqlite`](#sqlite-5)&#8197;[`tsv`](#tsv-1)&#8197;
 
 ## Most recent notes
 - [Render a list of all tags in eleventy](/base/notes/eleventy-iterate-tags.md) (8 June 2025) `eleventy` `nunjucks`
+- [Auto generating an index readme file from files in a repo](/base/notes/eleventy-generate-readme-from-repo-files.md) (8 June 2025) `eleventy`
 - [css paragraph text height](/base/notes/css-para-height.md) (31 March 2025) `css`
 - [focus-visible is a good way to register focus state](/base/notes/focus-visible-for-focus.md) (30 January 2025) `css`
 - [Tweaking colour to some other colour in css](/base/notes/css-tweak-colour.md) (30 January 2025) `css`
@@ -22,7 +23,6 @@ All markdown notes in the `notes` directory will be indexed. Using other file ty
 - [How to style html details elements with css](/base/notes/styling-details-element-css.md) (26 January 2025) `css` `html`
 - [matchAll output from javascript is like this](/base/notes/matchall-array-output.md) (23 January 2025) `regex` `javascript`
 - [How to use regex to capture tags and taxonomies](/base/notes/regex-get-tags-and-taxonomies.md) (21 January 2025) `regex`
-- [How to use &quot;For loops&quot; to access values in JavaScript object and arrays](/base/notes/loops-javascript-objects-and-arrays.md) (21 January 2025) `javascript`
 
 ## Notes grouped by tag
 
@@ -36,8 +36,9 @@ All markdown notes in the `notes` directory will be indexed. Using other file ty
 <details>
 <summary>
 
-### `all` (23)</summary>
+### `all` (24)</summary>
 - [Render a list of all tags in eleventy](/base/notes/eleventy-iterate-tags.md) (8 June 2025) `eleventy` `nunjucks`
+- [Auto generating an index readme file from files in a repo](/base/notes/eleventy-generate-readme-from-repo-files.md) (8 June 2025) `eleventy`
 - [css paragraph text height](/base/notes/css-para-height.md) (31 March 2025) `css`
 - [focus-visible is a good way to register focus state](/base/notes/focus-visible-for-focus.md) (30 January 2025) `css`
 - [Tweaking colour to some other colour in css](/base/notes/css-tweak-colour.md) (30 January 2025) `css`
@@ -84,8 +85,9 @@ All markdown notes in the `notes` directory will be indexed. Using other file ty
 <details>
 <summary>
 
-### `eleventy` (2)</summary>
+### `eleventy` (3)</summary>
 - [Render a list of all tags in eleventy](/base/notes/eleventy-iterate-tags.md) (8 June 2025) `eleventy` `nunjucks`
+- [Auto generating an index readme file from files in a repo](/base/notes/eleventy-generate-readme-from-repo-files.md) (8 June 2025) `eleventy`
 - [How to output a json file from a raw json object with eleventy](/base/notes/json-file-from-eleventy.md) (19 January 2025) `eleventy` `nunjucks` `javascript`
 ---
 </details>
