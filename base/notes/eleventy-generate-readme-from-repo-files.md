@@ -114,7 +114,7 @@ Because it is needlessly laborious to apply this to the front matter of each md 
         ├── file1.md
         ├── file2.md
         ├── file3.md
-        └── notes json
+        └── notes.json
 ```
 
 ... and in that folder write: 
@@ -131,7 +131,7 @@ You can't `eleventy --serve` with this setup because there is no index.html file
 
 ## Building with GitHub actions
 
-Finally you may want the convenience of rebuilding the readme with a button click in GitHub actions. I'm which case put a yaml file in the usual place:
+Finally you may want the convenience of rebuilding the readme with a button click in GitHub actions. In which case put a yaml file in the usual place:
 
 ```
 .
