@@ -23,7 +23,7 @@ All markdown notes in the `notes` directory will be indexed. Using other file ty
 
 {%- for note in collections.all | reverse -%}
 {% if loop.index <= 10 %}
-- [{{ note.data.title }}](/base/notes/{{ note.page.fileSlug }}.md) ({{ note.page.date | myDate }})
+- [{{ note.data.title }}]({{ note.page.inputPath }}) ({{ note.page.date | myDate }})
   {%- for tag in note.data.tags %} `{{ tag }}`{% endfor -%}
 {% endif %}
 {%- endfor %}
@@ -36,7 +36,7 @@ All markdown notes in the `notes` directory will be indexed. Using other file ty
 
 ### `{{ eachtag }}` ({{ notes | length }})</summary>
 {% for note in notes | reverse -%}
-- [{{ note.data.title }}](/base/notes/{{ note.page.fileSlug }}.md) ({{ note.page.date | myDate }})
+- [{{ note.data.title }}]({{ note.page.inputPath }}) ({{ note.page.date | myDate }})
   {%- for tag in note.data.tags %} `{{ tag }}`{% endfor %}
 {% endfor -%}
 ---

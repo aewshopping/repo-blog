@@ -13,16 +13,16 @@ All markdown notes in the `notes` directory will be indexed. Using other file ty
 [`airtable`](#airtable-1)&#8197;[`all`](#all-25)&#8197;[`ascii`](#ascii-1)&#8197;[`css`](#css-6)&#8197;[`csv`](#csv-1)&#8197;[`eleventy`](#eleventy-3)&#8197;[`googlesheets`](#googlesheets-1)&#8197;[`html`](#html-2)&#8197;[`javascript`](#javascript-7)&#8197;[`longer-note`](#longer-note-4)&#8197;[`nunjucks`](#nunjucks-2)&#8197;[`regex`](#regex-5)&#8197;[`snippet`](#snippet-21)&#8197;[`sqlite`](#sqlite-5)&#8197;[`tsv`](#tsv-1)&#8197;
 
 ## Most recent notes
-- [Drawing ASCII folder tree diagram](/base/notes/create-folder-tree-in-ascii.md) (9 June 2025) `snippet` `ascii`
-- [Render a list of all tags in eleventy](/base/notes/eleventy-iterate-tags.md) (8 June 2025) `longer-note` `eleventy` `nunjucks`
-- [Auto generating an index readme file from files in a repo](/base/notes/eleventy-generate-readme-from-repo-files.md) (8 June 2025) `longer-note` `eleventy`
-- [css paragraph text height](/base/notes/css-para-height.md) (31 March 2025) `snippet` `css`
-- [focus-visible is a good way to register focus state](/base/notes/focus-visible-for-focus.md) (30 January 2025) `snippet` `css`
-- [Tweaking colour to some other colour in css](/base/notes/css-tweak-colour.md) (30 January 2025) `snippet` `css`
-- [Simple colour mode option in css with has selector](/base/notes/simple-colour-mode-with-has-css.md) (28 January 2025) `snippet` `css`
-- [How to set top left bottom right in css with one inset property](/base/notes/inset-css-property.md) (27 January 2025) `snippet` `css`
-- [How to style html details elements with css](/base/notes/styling-details-element-css.md) (26 January 2025) `snippet` `css` `html`
-- [matchAll output from javascript is like this](/base/notes/matchall-array-output.md) (23 January 2025) `snippet` `regex` `javascript`
+- [Drawing ASCII folder tree diagram](./base/snippets/create-folder-tree-in-ascii.md) (9 June 2025) `snippet` `ascii`
+- [Render a list of all tags in eleventy](./base/notes/eleventy-iterate-tags.md) (8 June 2025) `longer-note` `eleventy` `nunjucks`
+- [Auto generating an index readme file from files in a repo](./base/notes/eleventy-generate-readme-from-repo-files.md) (8 June 2025) `longer-note` `eleventy`
+- [css paragraph text height](./base/snippets/css-para-height.md) (31 March 2025) `snippet` `css`
+- [focus-visible is a good way to register focus state](./base/snippets/focus-visible-for-focus.md) (30 January 2025) `snippet` `css`
+- [Tweaking colour to some other colour in css](./base/snippets/css-tweak-colour.md) (30 January 2025) `snippet` `css`
+- [Simple colour mode option in css with has selector](./base/snippets/simple-colour-mode-with-has-css.md) (28 January 2025) `snippet` `css`
+- [How to set top left bottom right in css with one inset property](./base/snippets/inset-css-property.md) (27 January 2025) `snippet` `css`
+- [How to style html details elements with css](./base/snippets/styling-details-element-css.md) (26 January 2025) `snippet` `css` `html`
+- [matchAll output from javascript is like this](./base/snippets/matchall-array-output.md) (23 January 2025) `snippet` `regex` `javascript`
 
 ## Notes grouped by tag
 
@@ -30,174 +30,174 @@ All markdown notes in the `notes` directory will be indexed. Using other file ty
 <summary>
 
 ### `airtable` (1)</summary>
-- [Regex is implemented differently in different contexts](/base/notes/regex-different-implementations.md) (11 January 2025) `snippet` `regex` `airtable`
+- [Regex is implemented differently in different contexts](./base/snippets/regex-different-implementations.md) (11 January 2025) `snippet` `regex` `airtable`
 ---
 </details>
 <details>
 <summary>
 
 ### `all` (25)</summary>
-- [Drawing ASCII folder tree diagram](/base/notes/create-folder-tree-in-ascii.md) (9 June 2025) `snippet` `ascii`
-- [Render a list of all tags in eleventy](/base/notes/eleventy-iterate-tags.md) (8 June 2025) `longer-note` `eleventy` `nunjucks`
-- [Auto generating an index readme file from files in a repo](/base/notes/eleventy-generate-readme-from-repo-files.md) (8 June 2025) `longer-note` `eleventy`
-- [css paragraph text height](/base/notes/css-para-height.md) (31 March 2025) `snippet` `css`
-- [focus-visible is a good way to register focus state](/base/notes/focus-visible-for-focus.md) (30 January 2025) `snippet` `css`
-- [Tweaking colour to some other colour in css](/base/notes/css-tweak-colour.md) (30 January 2025) `snippet` `css`
-- [Simple colour mode option in css with has selector](/base/notes/simple-colour-mode-with-has-css.md) (28 January 2025) `snippet` `css`
-- [How to set top left bottom right in css with one inset property](/base/notes/inset-css-property.md) (27 January 2025) `snippet` `css`
-- [How to style html details elements with css](/base/notes/styling-details-element-css.md) (26 January 2025) `snippet` `css` `html`
-- [matchAll output from javascript is like this](/base/notes/matchall-array-output.md) (23 January 2025) `snippet` `regex` `javascript`
-- [How to use regex to capture tags and taxonomies](/base/notes/regex-get-tags-and-taxonomies.md) (21 January 2025) `snippet` `regex`
-- [How to use &quot;For loops&quot; to access values in JavaScript object and arrays](/base/notes/loops-javascript-objects-and-arrays.md) (21 January 2025) `longer-note` `javascript`
-- [How to find all instances of match pattern in regex using JavaScript](/base/notes/find-all-match-regex.md) (20 January 2025) `snippet` `regex` `javascript`
-- [How to output a json file from a raw json object with eleventy](/base/notes/json-file-from-eleventy.md) (19 January 2025) `snippet` `eleventy` `nunjucks` `javascript`
-- [How to us regex to wrap text paragraphs in &lt;p&gt; tags](/base/notes/regex-wrap-para.md) (17 January 2025) `snippet` `regex` `javascript`
-- [JavaScript find in string method returns -1 if no match found](/base/notes/js-find-string-result.md) (15 January 2025) `snippet` `javascript`
-- [You can select a random row from an sqlite table but there are faster and slower ways to do it](/base/notes/select-random-row-sqlit.md) (14 January 2025) `snippet` `sqlite`
-- [Links with text fragments can link to specific text on a webpage](/base/notes/html-text-frags.md) (13 January 2025) `longer-note` `html` `javascript`
-- [Regex is implemented differently in different contexts](/base/notes/regex-different-implementations.md) (11 January 2025) `snippet` `regex` `airtable`
-- [You can use a map function together with lambda function in Googlesheets to apply a formula to every cell in an array](/base/notes/googlesheets-lambda-function.md) (10 January 2025) `snippet` `googlesheets`
-- [csv files cannot contain line breaks in a field entry](/base/notes/csv-no-line-breaks-in-cell.md) (10 January 2025) `snippet` `csv` `tsv`
-- [You can&#39;t change column names in a table in SQLite unless you have version greater than 3.25.0](/base/notes/sqlite-rename-column-challenge.md) (9 January 2025) `snippet` `sqlite`
-- [You can&#39;t change the type of a column in sqlite, you have to create a new table with the column type you want and copy it across](/base/notes/sqlite-cant-change-column-type.md) (9 January 2025) `snippet` `sqlite`
-- [There is no date type in SQLite](/base/notes/sqlite-no-date-type.md) (8 January 2025) `snippet` `sqlite`
-- [SQLite is loosely typed ie pretty much any type of data can go in any column](/base/notes/sqlite-is-loosely-typed.md) (8 January 2025) `snippet` `sqlite`
+- [Drawing ASCII folder tree diagram](./base/snippets/create-folder-tree-in-ascii.md) (9 June 2025) `snippet` `ascii`
+- [Render a list of all tags in eleventy](./base/notes/eleventy-iterate-tags.md) (8 June 2025) `longer-note` `eleventy` `nunjucks`
+- [Auto generating an index readme file from files in a repo](./base/notes/eleventy-generate-readme-from-repo-files.md) (8 June 2025) `longer-note` `eleventy`
+- [css paragraph text height](./base/snippets/css-para-height.md) (31 March 2025) `snippet` `css`
+- [focus-visible is a good way to register focus state](./base/snippets/focus-visible-for-focus.md) (30 January 2025) `snippet` `css`
+- [Tweaking colour to some other colour in css](./base/snippets/css-tweak-colour.md) (30 January 2025) `snippet` `css`
+- [Simple colour mode option in css with has selector](./base/snippets/simple-colour-mode-with-has-css.md) (28 January 2025) `snippet` `css`
+- [How to set top left bottom right in css with one inset property](./base/snippets/inset-css-property.md) (27 January 2025) `snippet` `css`
+- [How to style html details elements with css](./base/snippets/styling-details-element-css.md) (26 January 2025) `snippet` `css` `html`
+- [matchAll output from javascript is like this](./base/snippets/matchall-array-output.md) (23 January 2025) `snippet` `regex` `javascript`
+- [How to use regex to capture tags and taxonomies](./base/snippets/regex-get-tags-and-taxonomies.md) (21 January 2025) `snippet` `regex`
+- [How to use &quot;For loops&quot; to access values in JavaScript object and arrays](./base/notes/loops-javascript-objects-and-arrays.md) (21 January 2025) `longer-note` `javascript`
+- [How to find all instances of match pattern in regex using JavaScript](./base/snippets/find-all-match-regex.md) (20 January 2025) `snippet` `regex` `javascript`
+- [How to output a json file from a raw json object with eleventy](./base/snippets/json-file-from-eleventy.md) (19 January 2025) `snippet` `eleventy` `nunjucks` `javascript`
+- [How to us regex to wrap text paragraphs in &lt;p&gt; tags](./base/snippets/regex-wrap-para.md) (17 January 2025) `snippet` `regex` `javascript`
+- [JavaScript find in string method returns -1 if no match found](./base/snippets/js-find-string-result.md) (15 January 2025) `snippet` `javascript`
+- [You can select a random row from an sqlite table but there are faster and slower ways to do it](./base/snippets/select-random-row-sqlit.md) (14 January 2025) `snippet` `sqlite`
+- [Links with text fragments can link to specific text on a webpage](./base/notes/html-text-frags.md) (13 January 2025) `longer-note` `html` `javascript`
+- [Regex is implemented differently in different contexts](./base/snippets/regex-different-implementations.md) (11 January 2025) `snippet` `regex` `airtable`
+- [You can use a map function together with lambda function in Googlesheets to apply a formula to every cell in an array](./base/snippets/googlesheets-lambda-function.md) (10 January 2025) `snippet` `googlesheets`
+- [csv files cannot contain line breaks in a field entry](./base/snippets/csv-no-line-breaks-in-cell.md) (10 January 2025) `snippet` `csv` `tsv`
+- [You can&#39;t change column names in a table in SQLite unless you have version greater than 3.25.0](./base/snippets/sqlite-rename-column-challenge.md) (9 January 2025) `snippet` `sqlite`
+- [You can&#39;t change the type of a column in sqlite, you have to create a new table with the column type you want and copy it across](./base/snippets/sqlite-cant-change-column-type.md) (9 January 2025) `snippet` `sqlite`
+- [There is no date type in SQLite](./base/snippets/sqlite-no-date-type.md) (8 January 2025) `snippet` `sqlite`
+- [SQLite is loosely typed ie pretty much any type of data can go in any column](./base/snippets/sqlite-is-loosely-typed.md) (8 January 2025) `snippet` `sqlite`
 ---
 </details>
 <details>
 <summary>
 
 ### `ascii` (1)</summary>
-- [Drawing ASCII folder tree diagram](/base/notes/create-folder-tree-in-ascii.md) (9 June 2025) `snippet` `ascii`
+- [Drawing ASCII folder tree diagram](./base/snippets/create-folder-tree-in-ascii.md) (9 June 2025) `snippet` `ascii`
 ---
 </details>
 <details>
 <summary>
 
 ### `css` (6)</summary>
-- [css paragraph text height](/base/notes/css-para-height.md) (31 March 2025) `snippet` `css`
-- [focus-visible is a good way to register focus state](/base/notes/focus-visible-for-focus.md) (30 January 2025) `snippet` `css`
-- [Tweaking colour to some other colour in css](/base/notes/css-tweak-colour.md) (30 January 2025) `snippet` `css`
-- [Simple colour mode option in css with has selector](/base/notes/simple-colour-mode-with-has-css.md) (28 January 2025) `snippet` `css`
-- [How to set top left bottom right in css with one inset property](/base/notes/inset-css-property.md) (27 January 2025) `snippet` `css`
-- [How to style html details elements with css](/base/notes/styling-details-element-css.md) (26 January 2025) `snippet` `css` `html`
+- [css paragraph text height](./base/snippets/css-para-height.md) (31 March 2025) `snippet` `css`
+- [focus-visible is a good way to register focus state](./base/snippets/focus-visible-for-focus.md) (30 January 2025) `snippet` `css`
+- [Tweaking colour to some other colour in css](./base/snippets/css-tweak-colour.md) (30 January 2025) `snippet` `css`
+- [Simple colour mode option in css with has selector](./base/snippets/simple-colour-mode-with-has-css.md) (28 January 2025) `snippet` `css`
+- [How to set top left bottom right in css with one inset property](./base/snippets/inset-css-property.md) (27 January 2025) `snippet` `css`
+- [How to style html details elements with css](./base/snippets/styling-details-element-css.md) (26 January 2025) `snippet` `css` `html`
 ---
 </details>
 <details>
 <summary>
 
 ### `csv` (1)</summary>
-- [csv files cannot contain line breaks in a field entry](/base/notes/csv-no-line-breaks-in-cell.md) (10 January 2025) `snippet` `csv` `tsv`
+- [csv files cannot contain line breaks in a field entry](./base/snippets/csv-no-line-breaks-in-cell.md) (10 January 2025) `snippet` `csv` `tsv`
 ---
 </details>
 <details>
 <summary>
 
 ### `eleventy` (3)</summary>
-- [Render a list of all tags in eleventy](/base/notes/eleventy-iterate-tags.md) (8 June 2025) `longer-note` `eleventy` `nunjucks`
-- [Auto generating an index readme file from files in a repo](/base/notes/eleventy-generate-readme-from-repo-files.md) (8 June 2025) `longer-note` `eleventy`
-- [How to output a json file from a raw json object with eleventy](/base/notes/json-file-from-eleventy.md) (19 January 2025) `snippet` `eleventy` `nunjucks` `javascript`
+- [Render a list of all tags in eleventy](./base/notes/eleventy-iterate-tags.md) (8 June 2025) `longer-note` `eleventy` `nunjucks`
+- [Auto generating an index readme file from files in a repo](./base/notes/eleventy-generate-readme-from-repo-files.md) (8 June 2025) `longer-note` `eleventy`
+- [How to output a json file from a raw json object with eleventy](./base/snippets/json-file-from-eleventy.md) (19 January 2025) `snippet` `eleventy` `nunjucks` `javascript`
 ---
 </details>
 <details>
 <summary>
 
 ### `googlesheets` (1)</summary>
-- [You can use a map function together with lambda function in Googlesheets to apply a formula to every cell in an array](/base/notes/googlesheets-lambda-function.md) (10 January 2025) `snippet` `googlesheets`
+- [You can use a map function together with lambda function in Googlesheets to apply a formula to every cell in an array](./base/snippets/googlesheets-lambda-function.md) (10 January 2025) `snippet` `googlesheets`
 ---
 </details>
 <details>
 <summary>
 
 ### `html` (2)</summary>
-- [How to style html details elements with css](/base/notes/styling-details-element-css.md) (26 January 2025) `snippet` `css` `html`
-- [Links with text fragments can link to specific text on a webpage](/base/notes/html-text-frags.md) (13 January 2025) `longer-note` `html` `javascript`
+- [How to style html details elements with css](./base/snippets/styling-details-element-css.md) (26 January 2025) `snippet` `css` `html`
+- [Links with text fragments can link to specific text on a webpage](./base/notes/html-text-frags.md) (13 January 2025) `longer-note` `html` `javascript`
 ---
 </details>
 <details>
 <summary>
 
 ### `javascript` (7)</summary>
-- [matchAll output from javascript is like this](/base/notes/matchall-array-output.md) (23 January 2025) `snippet` `regex` `javascript`
-- [How to use &quot;For loops&quot; to access values in JavaScript object and arrays](/base/notes/loops-javascript-objects-and-arrays.md) (21 January 2025) `longer-note` `javascript`
-- [How to find all instances of match pattern in regex using JavaScript](/base/notes/find-all-match-regex.md) (20 January 2025) `snippet` `regex` `javascript`
-- [How to output a json file from a raw json object with eleventy](/base/notes/json-file-from-eleventy.md) (19 January 2025) `snippet` `eleventy` `nunjucks` `javascript`
-- [How to us regex to wrap text paragraphs in &lt;p&gt; tags](/base/notes/regex-wrap-para.md) (17 January 2025) `snippet` `regex` `javascript`
-- [JavaScript find in string method returns -1 if no match found](/base/notes/js-find-string-result.md) (15 January 2025) `snippet` `javascript`
-- [Links with text fragments can link to specific text on a webpage](/base/notes/html-text-frags.md) (13 January 2025) `longer-note` `html` `javascript`
+- [matchAll output from javascript is like this](./base/snippets/matchall-array-output.md) (23 January 2025) `snippet` `regex` `javascript`
+- [How to use &quot;For loops&quot; to access values in JavaScript object and arrays](./base/notes/loops-javascript-objects-and-arrays.md) (21 January 2025) `longer-note` `javascript`
+- [How to find all instances of match pattern in regex using JavaScript](./base/snippets/find-all-match-regex.md) (20 January 2025) `snippet` `regex` `javascript`
+- [How to output a json file from a raw json object with eleventy](./base/snippets/json-file-from-eleventy.md) (19 January 2025) `snippet` `eleventy` `nunjucks` `javascript`
+- [How to us regex to wrap text paragraphs in &lt;p&gt; tags](./base/snippets/regex-wrap-para.md) (17 January 2025) `snippet` `regex` `javascript`
+- [JavaScript find in string method returns -1 if no match found](./base/snippets/js-find-string-result.md) (15 January 2025) `snippet` `javascript`
+- [Links with text fragments can link to specific text on a webpage](./base/notes/html-text-frags.md) (13 January 2025) `longer-note` `html` `javascript`
 ---
 </details>
 <details>
 <summary>
 
 ### `longer-note` (4)</summary>
-- [Render a list of all tags in eleventy](/base/notes/eleventy-iterate-tags.md) (8 June 2025) `longer-note` `eleventy` `nunjucks`
-- [Auto generating an index readme file from files in a repo](/base/notes/eleventy-generate-readme-from-repo-files.md) (8 June 2025) `longer-note` `eleventy`
-- [How to use &quot;For loops&quot; to access values in JavaScript object and arrays](/base/notes/loops-javascript-objects-and-arrays.md) (21 January 2025) `longer-note` `javascript`
-- [Links with text fragments can link to specific text on a webpage](/base/notes/html-text-frags.md) (13 January 2025) `longer-note` `html` `javascript`
+- [Render a list of all tags in eleventy](./base/notes/eleventy-iterate-tags.md) (8 June 2025) `longer-note` `eleventy` `nunjucks`
+- [Auto generating an index readme file from files in a repo](./base/notes/eleventy-generate-readme-from-repo-files.md) (8 June 2025) `longer-note` `eleventy`
+- [How to use &quot;For loops&quot; to access values in JavaScript object and arrays](./base/notes/loops-javascript-objects-and-arrays.md) (21 January 2025) `longer-note` `javascript`
+- [Links with text fragments can link to specific text on a webpage](./base/notes/html-text-frags.md) (13 January 2025) `longer-note` `html` `javascript`
 ---
 </details>
 <details>
 <summary>
 
 ### `nunjucks` (2)</summary>
-- [Render a list of all tags in eleventy](/base/notes/eleventy-iterate-tags.md) (8 June 2025) `longer-note` `eleventy` `nunjucks`
-- [How to output a json file from a raw json object with eleventy](/base/notes/json-file-from-eleventy.md) (19 January 2025) `snippet` `eleventy` `nunjucks` `javascript`
+- [Render a list of all tags in eleventy](./base/notes/eleventy-iterate-tags.md) (8 June 2025) `longer-note` `eleventy` `nunjucks`
+- [How to output a json file from a raw json object with eleventy](./base/snippets/json-file-from-eleventy.md) (19 January 2025) `snippet` `eleventy` `nunjucks` `javascript`
 ---
 </details>
 <details>
 <summary>
 
 ### `regex` (5)</summary>
-- [matchAll output from javascript is like this](/base/notes/matchall-array-output.md) (23 January 2025) `snippet` `regex` `javascript`
-- [How to use regex to capture tags and taxonomies](/base/notes/regex-get-tags-and-taxonomies.md) (21 January 2025) `snippet` `regex`
-- [How to find all instances of match pattern in regex using JavaScript](/base/notes/find-all-match-regex.md) (20 January 2025) `snippet` `regex` `javascript`
-- [How to us regex to wrap text paragraphs in &lt;p&gt; tags](/base/notes/regex-wrap-para.md) (17 January 2025) `snippet` `regex` `javascript`
-- [Regex is implemented differently in different contexts](/base/notes/regex-different-implementations.md) (11 January 2025) `snippet` `regex` `airtable`
+- [matchAll output from javascript is like this](./base/snippets/matchall-array-output.md) (23 January 2025) `snippet` `regex` `javascript`
+- [How to use regex to capture tags and taxonomies](./base/snippets/regex-get-tags-and-taxonomies.md) (21 January 2025) `snippet` `regex`
+- [How to find all instances of match pattern in regex using JavaScript](./base/snippets/find-all-match-regex.md) (20 January 2025) `snippet` `regex` `javascript`
+- [How to us regex to wrap text paragraphs in &lt;p&gt; tags](./base/snippets/regex-wrap-para.md) (17 January 2025) `snippet` `regex` `javascript`
+- [Regex is implemented differently in different contexts](./base/snippets/regex-different-implementations.md) (11 January 2025) `snippet` `regex` `airtable`
 ---
 </details>
 <details>
 <summary>
 
 ### `snippet` (21)</summary>
-- [Drawing ASCII folder tree diagram](/base/notes/create-folder-tree-in-ascii.md) (9 June 2025) `snippet` `ascii`
-- [css paragraph text height](/base/notes/css-para-height.md) (31 March 2025) `snippet` `css`
-- [focus-visible is a good way to register focus state](/base/notes/focus-visible-for-focus.md) (30 January 2025) `snippet` `css`
-- [Tweaking colour to some other colour in css](/base/notes/css-tweak-colour.md) (30 January 2025) `snippet` `css`
-- [Simple colour mode option in css with has selector](/base/notes/simple-colour-mode-with-has-css.md) (28 January 2025) `snippet` `css`
-- [How to set top left bottom right in css with one inset property](/base/notes/inset-css-property.md) (27 January 2025) `snippet` `css`
-- [How to style html details elements with css](/base/notes/styling-details-element-css.md) (26 January 2025) `snippet` `css` `html`
-- [matchAll output from javascript is like this](/base/notes/matchall-array-output.md) (23 January 2025) `snippet` `regex` `javascript`
-- [How to use regex to capture tags and taxonomies](/base/notes/regex-get-tags-and-taxonomies.md) (21 January 2025) `snippet` `regex`
-- [How to find all instances of match pattern in regex using JavaScript](/base/notes/find-all-match-regex.md) (20 January 2025) `snippet` `regex` `javascript`
-- [How to output a json file from a raw json object with eleventy](/base/notes/json-file-from-eleventy.md) (19 January 2025) `snippet` `eleventy` `nunjucks` `javascript`
-- [How to us regex to wrap text paragraphs in &lt;p&gt; tags](/base/notes/regex-wrap-para.md) (17 January 2025) `snippet` `regex` `javascript`
-- [JavaScript find in string method returns -1 if no match found](/base/notes/js-find-string-result.md) (15 January 2025) `snippet` `javascript`
-- [You can select a random row from an sqlite table but there are faster and slower ways to do it](/base/notes/select-random-row-sqlit.md) (14 January 2025) `snippet` `sqlite`
-- [Regex is implemented differently in different contexts](/base/notes/regex-different-implementations.md) (11 January 2025) `snippet` `regex` `airtable`
-- [You can use a map function together with lambda function in Googlesheets to apply a formula to every cell in an array](/base/notes/googlesheets-lambda-function.md) (10 January 2025) `snippet` `googlesheets`
-- [csv files cannot contain line breaks in a field entry](/base/notes/csv-no-line-breaks-in-cell.md) (10 January 2025) `snippet` `csv` `tsv`
-- [You can&#39;t change column names in a table in SQLite unless you have version greater than 3.25.0](/base/notes/sqlite-rename-column-challenge.md) (9 January 2025) `snippet` `sqlite`
-- [You can&#39;t change the type of a column in sqlite, you have to create a new table with the column type you want and copy it across](/base/notes/sqlite-cant-change-column-type.md) (9 January 2025) `snippet` `sqlite`
-- [There is no date type in SQLite](/base/notes/sqlite-no-date-type.md) (8 January 2025) `snippet` `sqlite`
-- [SQLite is loosely typed ie pretty much any type of data can go in any column](/base/notes/sqlite-is-loosely-typed.md) (8 January 2025) `snippet` `sqlite`
+- [Drawing ASCII folder tree diagram](./base/snippets/create-folder-tree-in-ascii.md) (9 June 2025) `snippet` `ascii`
+- [css paragraph text height](./base/snippets/css-para-height.md) (31 March 2025) `snippet` `css`
+- [focus-visible is a good way to register focus state](./base/snippets/focus-visible-for-focus.md) (30 January 2025) `snippet` `css`
+- [Tweaking colour to some other colour in css](./base/snippets/css-tweak-colour.md) (30 January 2025) `snippet` `css`
+- [Simple colour mode option in css with has selector](./base/snippets/simple-colour-mode-with-has-css.md) (28 January 2025) `snippet` `css`
+- [How to set top left bottom right in css with one inset property](./base/snippets/inset-css-property.md) (27 January 2025) `snippet` `css`
+- [How to style html details elements with css](./base/snippets/styling-details-element-css.md) (26 January 2025) `snippet` `css` `html`
+- [matchAll output from javascript is like this](./base/snippets/matchall-array-output.md) (23 January 2025) `snippet` `regex` `javascript`
+- [How to use regex to capture tags and taxonomies](./base/snippets/regex-get-tags-and-taxonomies.md) (21 January 2025) `snippet` `regex`
+- [How to find all instances of match pattern in regex using JavaScript](./base/snippets/find-all-match-regex.md) (20 January 2025) `snippet` `regex` `javascript`
+- [How to output a json file from a raw json object with eleventy](./base/snippets/json-file-from-eleventy.md) (19 January 2025) `snippet` `eleventy` `nunjucks` `javascript`
+- [How to us regex to wrap text paragraphs in &lt;p&gt; tags](./base/snippets/regex-wrap-para.md) (17 January 2025) `snippet` `regex` `javascript`
+- [JavaScript find in string method returns -1 if no match found](./base/snippets/js-find-string-result.md) (15 January 2025) `snippet` `javascript`
+- [You can select a random row from an sqlite table but there are faster and slower ways to do it](./base/snippets/select-random-row-sqlit.md) (14 January 2025) `snippet` `sqlite`
+- [Regex is implemented differently in different contexts](./base/snippets/regex-different-implementations.md) (11 January 2025) `snippet` `regex` `airtable`
+- [You can use a map function together with lambda function in Googlesheets to apply a formula to every cell in an array](./base/snippets/googlesheets-lambda-function.md) (10 January 2025) `snippet` `googlesheets`
+- [csv files cannot contain line breaks in a field entry](./base/snippets/csv-no-line-breaks-in-cell.md) (10 January 2025) `snippet` `csv` `tsv`
+- [You can&#39;t change column names in a table in SQLite unless you have version greater than 3.25.0](./base/snippets/sqlite-rename-column-challenge.md) (9 January 2025) `snippet` `sqlite`
+- [You can&#39;t change the type of a column in sqlite, you have to create a new table with the column type you want and copy it across](./base/snippets/sqlite-cant-change-column-type.md) (9 January 2025) `snippet` `sqlite`
+- [There is no date type in SQLite](./base/snippets/sqlite-no-date-type.md) (8 January 2025) `snippet` `sqlite`
+- [SQLite is loosely typed ie pretty much any type of data can go in any column](./base/snippets/sqlite-is-loosely-typed.md) (8 January 2025) `snippet` `sqlite`
 ---
 </details>
 <details>
 <summary>
 
 ### `sqlite` (5)</summary>
-- [You can select a random row from an sqlite table but there are faster and slower ways to do it](/base/notes/select-random-row-sqlit.md) (14 January 2025) `snippet` `sqlite`
-- [You can&#39;t change column names in a table in SQLite unless you have version greater than 3.25.0](/base/notes/sqlite-rename-column-challenge.md) (9 January 2025) `snippet` `sqlite`
-- [You can&#39;t change the type of a column in sqlite, you have to create a new table with the column type you want and copy it across](/base/notes/sqlite-cant-change-column-type.md) (9 January 2025) `snippet` `sqlite`
-- [There is no date type in SQLite](/base/notes/sqlite-no-date-type.md) (8 January 2025) `snippet` `sqlite`
-- [SQLite is loosely typed ie pretty much any type of data can go in any column](/base/notes/sqlite-is-loosely-typed.md) (8 January 2025) `snippet` `sqlite`
+- [You can select a random row from an sqlite table but there are faster and slower ways to do it](./base/snippets/select-random-row-sqlit.md) (14 January 2025) `snippet` `sqlite`
+- [You can&#39;t change column names in a table in SQLite unless you have version greater than 3.25.0](./base/snippets/sqlite-rename-column-challenge.md) (9 January 2025) `snippet` `sqlite`
+- [You can&#39;t change the type of a column in sqlite, you have to create a new table with the column type you want and copy it across](./base/snippets/sqlite-cant-change-column-type.md) (9 January 2025) `snippet` `sqlite`
+- [There is no date type in SQLite](./base/snippets/sqlite-no-date-type.md) (8 January 2025) `snippet` `sqlite`
+- [SQLite is loosely typed ie pretty much any type of data can go in any column](./base/snippets/sqlite-is-loosely-typed.md) (8 January 2025) `snippet` `sqlite`
 ---
 </details>
 <details>
 <summary>
 
 ### `tsv` (1)</summary>
-- [csv files cannot contain line breaks in a field entry](/base/notes/csv-no-line-breaks-in-cell.md) (10 January 2025) `snippet` `csv` `tsv`
+- [csv files cannot contain line breaks in a field entry](./base/snippets/csv-no-line-breaks-in-cell.md) (10 January 2025) `snippet` `csv` `tsv`
 ---
 </details>
