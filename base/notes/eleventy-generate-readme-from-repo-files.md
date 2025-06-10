@@ -13,7 +13,7 @@ I want to take the `collections` object and use it to create a list of the all t
 
 ## Folder structure
 
-Firstly create this folder structure: 
+First I created an eleventy project (see the eleventy docs) and this folder structure: 
 
 ```
 .
@@ -27,7 +27,7 @@ Firstly create this folder structure:
 └── eleventy.config.js
 ```
 
-What we want to do is use everything in the `base` directory as input. And output to the root of the project. 
+What I want to do is use everything in the `base` directory as input. And output to the root of the project. 
 
 ## Eleventy config setup
 
@@ -44,7 +44,7 @@ export default async function(eleventyConfig) {
 
 ## Templating the readme file
 
-The key file is the `readme-generator.md` file. This provides the 'template' instructions for eleventy to create readme.md. It will look something like this: 
+The key file is the `readme-generator.md` file. This provides the 'template' instructions for eleventy to create `readme.md`. It will look something like this: 
 
 ```yaml
 ---
@@ -69,6 +69,7 @@ The key thing is that we _don't_ want eleventy to translate the markdown into ht
 
 You might think you have to `.gitignore` the `/notes/` folder - you could set this up in the normal way, along with the node_modules.
 
+`.gitignore`
 ```
 node_modules/
 /notes/ # <-- don't need this line
@@ -97,7 +98,7 @@ You can do all the normal eleventy / nunjucks  templating stuff here of course, 
 
 ## Prevent build of your notes files
 
-Eleventy will turn all of your markdown notes files into html pages by default. We want to prevent it building any pages except the readme file.
+Eleventy will turn all of your markdown notes files into html pages by default. I want to prevent it building any pages except the readme file.
 
 To do this we need to apply add `permalinks: false` entry to the front matter of each post.
 
@@ -128,7 +129,9 @@ The final thing that I did was to prevent eleventy from applying any rendering o
 
 This is because even with `permalinks: false` eleventy still tries parse the contents of the markdown files. I came across an issue where I wanted to show some nunjucks code within some triple markdown backticks. But eleventy still tried to parse the nunjucks code leading to an error. 
 
-To stop this without having to change your markdown notes (adding `{% raw %} something {% endraw %}` blocks) for example, you can apply a yaml property to the notes files of `templateEngineOveride: html`. This means that eleventy used only the 'html' templating language to transform the markdown files - i.e. no markdown, no nunjucks. (This is equivalent to using `false` but for some reason `false` didn't work for me.)
+To stop this without having to change your markdown notes (adding `{% raw %} something {% endraw %}` blocks for example), you can apply a yaml property to the notes files: `templateEngineOveride: html`.
+
+This means that eleventy uses only the 'html' templating language to transform the markdown files - i.e. it doesn't transform with markdown, or nunjucks. (This is equivalent to using `false` but for some reason `false` didn't work for me.)
 
 Again in our `base.json` file add:
 
