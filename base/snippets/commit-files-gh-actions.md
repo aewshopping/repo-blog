@@ -15,7 +15,7 @@ The last bit of one of the workflows looks like this:
           git config user.name "Automated"
           git config user.email "actions@users.noreply.github.com"
           git add --all
-          timestamp=$(date -utc)
+          timestamp=$(date --utc)
           git commit --message "${timestamp}" || exit 0
           git pull --rebase
           git push
@@ -24,7 +24,7 @@ The last bit of one of the workflows looks like this:
 I like it because it is short and understandable!
 
 - I expanded -A to --all
-- also -u to -utc
+- also -u to --utc
 - and -m to --message
 
 If it doesn't work the error will be in one of those three being wrong!
