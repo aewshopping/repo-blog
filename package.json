@@ -1,7 +1,7 @@
 {
-  "name": "learn",
+  "name": "repo-blog",
   "version": "1.0.0",
-  "description": "Collection of coding learnings",
+  "description": "Possibly the simplest possible GitHub blog",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
