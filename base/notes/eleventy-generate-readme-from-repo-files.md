@@ -101,16 +101,16 @@ Eleventy will turn all of your markdown notes files into html pages by default. 
 
 To do this we need to apply add `permalinks: false` entry to the front matter of each post.
 
-Because it is needlessly laborious to apply this to the front matter of each md file we can apply it to all files in the folder at once by putting a json file with the same name as the folder in that folder thusly:
+Because it is needlessly laborious to apply this to the front matter of each md file we can apply it to all files (and all your sub-directories) in the folder at once by putting a json file with the same name as the folder in that folder thusly:
 
 ```
 .
 └── base/
-    └── notes/
-        ├── file1.md
-        ├── file2.md
-        ├── file3.md
-        └── notes.json
+    ├── notes/
+    │   ├── file1.md
+    │   ├── file2.md
+    │   └── file3.md
+    └── base.json
 ```
 
 Then in the file write:
@@ -120,6 +120,7 @@ Then in the file write:
   "permalink": false
 }
 ```
+(Note this `base.json` file will in theory affect the `readme-generator.md` file, but the front matter in the `readme-generator.md` file takes precedence over the directory file. Because we have the same properties in each, `readme-generator.md` will overwite them. (The only exception to this is `tags` which are additive.)
 
 ## Turn off templating for notes files
 
@@ -129,16 +130,39 @@ This is because even with `permalinks: false` eleventy still tries parse the con
 
 To stop this without having to change your markdown notes (adding `{% raw %} something {% endraw %}` blocks) for example, you can apply a yaml property to the notes files of `templateEngineOveride: html`. This means that eleventy used only the 'html' templating language to transform the markdown files - i.e. no markdown, no nunjucks. (This is equivalent to using `false` but for some reason `false` didn't work for me.)
 
-Again in our `notes.json` file add:
+Again in our `base.json` file add:
 
 ```json
 {
   "permalink": false,
   "templateEngineOverride": "html",
+}
+```
+
+## Setting tags for sub-folders
+
+We can apply a tag to all files in a directory by adding another `.json` file to the right place (named the same as the directory it is inside). In this case it is `notes.json`. 
+
+```
+.
+└── base/
+    ├── notes/
+    │   ├── file1.md
+    │   ├── file2.md
+    │   ├── file3.md
+    │   └── notes.json
+    └── base.json
+```
+
+In `notes.json` add:
+
+```json
+{
   "tags": "notes"
 }
 ```
-You can see I added a `notes` tag to all files in this folder. Using this method I can have more than one folder (adding say a `long-notes` folder) and automatically add folder dependent tags.
+
+Repeat for other folders if you want to organise things in this way - in fact this only really has a point if you have more than one sub-directory, each with a different directory tag.
 
 ## `eleventy --serve` doesn't work, but you don't need it
 
@@ -157,8 +181,7 @@ Finally you may want the convenience of rebuilding the readme with a button clic
     └── notes/
         ├── file1.md
         ├── file2.md
-        ├── file3.md
-        └── notes.json
+        └── file3.md
 ```
 
 ...and write something like this in the file. This file should be generic enough to work out of the box.
