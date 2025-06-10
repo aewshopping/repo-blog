@@ -114,7 +114,7 @@ Because it is needlessly laborious to apply this to the front matter of each md 
     └── base.json
 ```
 
-Then in the file write:
+Then in the `base.json` file write:
 
 ```json
 {
