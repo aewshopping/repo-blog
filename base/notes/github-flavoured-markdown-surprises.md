@@ -42,6 +42,8 @@ Rendering like this.
 > [!CAUTION]
 > Advises about risks or negative outcomes of certain actions.
 
+> [! NOTHING]
+> Presumably if rendered elsewhere it will look like this.
 
 ## Footnotes
 
