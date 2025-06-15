@@ -10,10 +10,12 @@ All markdown files in subfolders of the `base` directory are indexed.
 
 ## Tags used
 
-[`airtable`](#airtable-1)&#8197;[`all`](#all-28)&#8197;[`ascii`](#ascii-1)&#8197;[`css`](#css-6)&#8197;[`csv`](#csv-1)&#8197;[`eleventy`](#eleventy-4)&#8197;[`github-actions`](#github-actions-1)&#8197;[`github-pages`](#github-pages-1)&#8197;[`googlesheets`](#googlesheets-1)&#8197;[`html`](#html-2)&#8197;[`javascript`](#javascript-7)&#8197;[`longer-note`](#longer-note-5)&#8197;[`nunjucks`](#nunjucks-2)&#8197;[`regex`](#regex-5)&#8197;[`snippet`](#snippet-23)&#8197;[`sqlite`](#sqlite-5)&#8197;[`tsv`](#tsv-1)&#8197;
+[`airtable`](#airtable-1)&#8197;[`all`](#all-30)&#8197;[`ascii`](#ascii-1)&#8197;[`css`](#css-6)&#8197;[`csv`](#csv-1)&#8197;[`eleventy`](#eleventy-4)&#8197;[`github`](#github-1)&#8197;[`github-actions`](#github-actions-2)&#8197;[`github-pages`](#github-pages-1)&#8197;[`googlesheets`](#googlesheets-1)&#8197;[`html`](#html-2)&#8197;[`javascript`](#javascript-7)&#8197;[`longer-note`](#longer-note-7)&#8197;[`nunjucks`](#nunjucks-2)&#8197;[`regex`](#regex-5)&#8197;[`snippet`](#snippet-23)&#8197;[`sqlite`](#sqlite-5)&#8197;[`tsv`](#tsv-1)&#8197;
 
 ## Most recent notes
+- [Github actions to download multiple files from remote urls, and delete columns](./base/notes/github-workflow-csv-tsv-manipulate.md) (15 June 2025) `longer-note` `github-actions`
 - [How to create a date filter in eleventy](./base/snippets/eleventy-date-filter.md) (11 June 2025) `snippet` `eleventy`
+- [Surprising features of github flavoured markdown](./base/notes/github-flavoured-markdown-surprises.md) (11 June 2025) `longer-note` `github`
 - [How to commit files in GitHub actions](./base/snippets/commit-files-gh-actions.md) (10 June 2025) `snippet` `github-actions`
 - [Drawing ASCII folder tree diagram](./base/snippets/create-folder-tree-in-ascii.md) (9 June 2025) `snippet` `ascii`
 - [Render a list of all tags in eleventy](./base/notes/eleventy-iterate-tags.md) (8 June 2025) `longer-note` `eleventy` `nunjucks`
@@ -21,8 +23,6 @@ All markdown files in subfolders of the `base` directory are indexed.
 - [How to serve static sites in GitHub pages](./base/notes/eleventy-github-pages-options.md) (5 May 2025) `longer-note` `github-pages`
 - [css paragraph text height](./base/snippets/css-para-height.md) (31 March 2025) `snippet` `css`
 - [focus-visible is a good way to register focus state](./base/snippets/focus-visible-for-focus.md) (30 January 2025) `snippet` `css`
-- [Tweaking colour to some other colour in css](./base/snippets/css-tweak-colour.md) (30 January 2025) `snippet` `css`
-- [Simple colour mode option in css with has selector](./base/snippets/simple-colour-mode-with-has-css.md) (28 January 2025) `snippet` `css`
 
 ## Notes grouped by tag
 
@@ -36,8 +36,10 @@ All markdown files in subfolders of the `base` directory are indexed.
 <details>
 <summary>
 
-### `all` (28)</summary>
+### `all` (30)</summary>
+- [Github actions to download multiple files from remote urls, and delete columns](./base/notes/github-workflow-csv-tsv-manipulate.md) (15 June 2025) `longer-note` `github-actions`
 - [How to create a date filter in eleventy](./base/snippets/eleventy-date-filter.md) (11 June 2025) `snippet` `eleventy`
+- [Surprising features of github flavoured markdown](./base/notes/github-flavoured-markdown-surprises.md) (11 June 2025) `longer-note` `github`
 - [How to commit files in GitHub actions](./base/snippets/commit-files-gh-actions.md) (10 June 2025) `snippet` `github-actions`
 - [Drawing ASCII folder tree diagram](./base/snippets/create-folder-tree-in-ascii.md) (9 June 2025) `snippet` `ascii`
 - [Render a list of all tags in eleventy](./base/notes/eleventy-iterate-tags.md) (8 June 2025) `longer-note` `eleventy` `nunjucks`
@@ -106,7 +108,15 @@ All markdown files in subfolders of the `base` directory are indexed.
 <details>
 <summary>
 
-### `github-actions` (1)</summary>
+### `github` (1)</summary>
+- [Surprising features of github flavoured markdown](./base/notes/github-flavoured-markdown-surprises.md) (11 June 2025) `longer-note` `github`
+---
+</details>
+<details>
+<summary>
+
+### `github-actions` (2)</summary>
+- [Github actions to download multiple files from remote urls, and delete columns](./base/notes/github-workflow-csv-tsv-manipulate.md) (15 June 2025) `longer-note` `github-actions`
 - [How to commit files in GitHub actions](./base/snippets/commit-files-gh-actions.md) (10 June 2025) `snippet` `github-actions`
 ---
 </details>
@@ -148,7 +158,9 @@ All markdown files in subfolders of the `base` directory are indexed.
 <details>
 <summary>
 
-### `longer-note` (5)</summary>
+### `longer-note` (7)</summary>
+- [Github actions to download multiple files from remote urls, and delete columns](./base/notes/github-workflow-csv-tsv-manipulate.md) (15 June 2025) `longer-note` `github-actions`
+- [Surprising features of github flavoured markdown](./base/notes/github-flavoured-markdown-surprises.md) (11 June 2025) `longer-note` `github`
 - [Render a list of all tags in eleventy](./base/notes/eleventy-iterate-tags.md) (8 June 2025) `longer-note` `eleventy` `nunjucks`
 - [Auto generating an index readme file from files in a repo](./base/notes/eleventy-generate-readme-from-repo-files.md) (8 June 2025) `longer-note` `eleventy`
 - [How to serve static sites in GitHub pages](./base/notes/eleventy-github-pages-options.md) (5 May 2025) `longer-note` `github-pages`
