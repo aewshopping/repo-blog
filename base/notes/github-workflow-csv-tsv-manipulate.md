@@ -48,6 +48,8 @@ The `config.json` file will look like this, and lists the files to download, out
 
 ## Workflow file
 
+Note that I changed `curl --output "$TEMP_INPUT_FILE" "$URL"` to `curl -L "$URL" > "$TEMP_INPUT_FILE"` in this file below to get it working with google sheets.
+
 `.github/workflows/process-multiple-remote-files.yml`
 
 ```yaml
@@ -124,7 +126,7 @@ jobs:
 
           # 1. Download the file
           echo "Downloading $URL to $TEMP_INPUT_FILE..."
-          curl --output "$TEMP_INPUT_FILE" "$URL"
+          curl -L "$URL" > "$TEMP_INPUT_FILE"
 
           echo "Downloaded $TEMP_INPUT_FILE head:"
           head "$TEMP_INPUT_FILE"
