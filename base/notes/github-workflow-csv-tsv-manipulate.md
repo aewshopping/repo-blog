@@ -5,140 +5,59 @@ tags: github-actions
 ---
 # Github actions to download multiple files from remote urls, and delete columns
 
+The purpose of this is to create a github action which will get some csv or tsv files from elsewhere, manipluate them a bit (in this case using Miller and deleting columns I don't want), and save them to the repo.
+
 ## Folder structure
 
-To implement the custom composite action, you'll need to create a new directory and file within your repository.
-
-Here's the structure:
+Create a new directory and file within your repository with this structure:
 
 ```
 your-repo/
 ├── .github/
-│   ├── workflows/
-│   │   └── process-multiple-files-composite.yml  <-- Your main workflow
-│   └── actions/
-│       └── process-single-file/
-│           └── action.yml                     <-- The custom composite action
-└── config.json                                  <-- Your configuration file
+│   └── workflows/
+│      └── process-multiple-remote-files.yml  <-- Your main workflow
+└── config.json                               <-- Your configuration file
 ```
 
 ## Config file
 
-The `config.json` file will look like this:
+The `config.json` file will look like this, and lists the files to download, output filename (and directory), plus the format of the file. Suspect the directory will need to exist before the action is run:
 
 ```json
 [
   {
     "url": "https://raw.githubusercontent.com/datasets/population/main/data/population.csv",
-    "output_filename": "processed_population.csv",
+    "output_filename": "data/processed_population.csv",
     "columns_to_delete": ["Year", "Value"],
     "miller_format": "--csv"
   },
   {
     "url": "https://raw.githubusercontent.com/datasets/gdp/main/data/gdp.tsv",
-    "output_filename": "processed_gdp.tsv",
+    "output_filename": "data/processed_gdp.tsv",
     "columns_to_delete": ["Country Code"],
     "miller_format": "--tsv"
   },
   {
     "url": "https://raw.githubusercontent.com/datasets/co2-emissions/main/data/co2-emissions.csv",
-    "output_filename": "processed_co2_emissions.csv",
+    "output_filename": "data/processed_co2_emissions.csv",
     "columns_to_delete": ["Unit"],
     "miller_format": "--csv"
   }
 ]
 ```
 
-## Custom Composite Action
+## Workflow file
 
-`.github/actions/process-single-file/action.yml`
-
-```yaml
-# .github/actions/process-single-file/action.yml
-name: 'Process Single Data File with Miller'
-description: 'Downloads a data file, deletes specified columns using Miller, and cleans up.'
-
-inputs:
-  file_url:
-    description: 'The URL of the remote input data file.'
-    required: true
-  output_filename:
-    description: 'The desired local output filename for the processed file.'
-    required: true
-  columns_to_delete:
-    description: 'Comma-separated string of column names to delete (e.g., "Col1,Col2"). Can be empty.'
-    required: true
-  miller_format:
-    description: 'Miller format flags (e.g., --csv, --tsv, --json).'
-    required: true
-
-outputs:
-  processed_filepath:
-    description: "The path to the processed output file."
-    value: ${{ inputs.output_filename }} # Expose the output filename
-
-runs:
-  using: "composite"
-  steps:
-    - name: Download, Process, and Clean Up
-      run: |
-        set -eo pipefail # Exit immediately if a command exits with a non-zero status; also fails if any command in a pipeline fails.
-
-        echo "--- Processing: ${{ inputs.file_url }} ---"
-        echo "Output filename: ${{ inputs.output_filename }}"
-        echo "Columns to delete: [${{ inputs.columns_to_delete }}]"
-        echo "Miller format flags: ${{ inputs.miller_format }}"
-
-        # Use mktemp to create a unique temporary file name without a specific suffix.
-        # This simplifies the code as requested.
-        TEMP_INPUT_FILE=$(mktemp) # <<< SIMPLIFIED HERE: Removed --suffix logic
-        echo "Created temporary file: $TEMP_INPUT_FILE"
-
-        # Ensure the temporary file is removed even if the script fails
-        trap "rm -f \"$TEMP_INPUT_FILE\"" EXIT
-
-        # 1. Download the file
-        echo "Downloading ${{ inputs.file_url }} to $TEMP_INPUT_FILE..."
-        curl --output "$TEMP_INPUT_FILE" "${{ inputs.file_url }}"
-
-        echo "Downloaded $TEMP_INPUT_FILE head:"
-        head "$TEMP_INPUT_FILE"
-
-        # 2. Delete unwanted columns using Miller
-        echo "Processing $TEMP_INPUT_FILE with Miller..."
-        if [ -n "${{ inputs.columns_to_delete }}" ]; then
-          mlr ${{ inputs.miller_format }} cut --exclude --fields "${{ inputs.columns_to_delete }}" "$TEMP_INPUT_FILE" > "${{ inputs.output_filename }}"
-        else
-          echo "No columns specified for deletion. Copying original to output."
-          cp "$TEMP_INPUT_FILE" "${{ inputs.output_filename }}"
-        fi
-
-        # Check for successful output file creation
-        if [ ! -f "${{ inputs.output_filename }}" ]; then
-          echo "Error: Processed file '${{ inputs.output_filename }}' was not created."
-          exit 1
-        fi
-        echo "Processed ${{ inputs.output_filename }} head:"
-        head "${{ inputs.output_filename }}"
-
-        # The 'trap' command above handles the cleanup of $TEMP_INPUT_FILE automatically
-
-        echo "--- Finished processing ${{ inputs.output_filename }} ---"
-        echo ""
-
-      shell: bash
-```
-
-## Main Workflow file
-
-`.github/workflows/process-multiple-files-composite.yml`
+`.github/workflows/process-multiple-remote-files.yml`
 
 ```yaml
-# .github/workflows/process-multiple-files-composite.yml
-name: Process Multiple Remote Files with Miller (using Composite Action)
+name: Process Multiple Remote Files with Miller
 
 on:
   workflow_dispatch: # Allows manual triggering
+
+permissions:
+  contents: write
 
 jobs:
   process_all_files:
@@ -166,8 +85,10 @@ jobs:
         echo "Installing jq..."
         sudo apt-get update && sudo apt-get install -y jq
         jq --version
+      shell: bash
 
     - name: Process each file from config
+      id: process-files # Add an ID to this step to access its outputs
       run: |
         set -eo pipefail
         CONFIG_FILE="config.json"
@@ -180,36 +101,79 @@ jobs:
         echo "Found $TOTAL_FILES files to process from $CONFIG_FILE."
 
         jq -c '.[]' "$CONFIG_FILE" | while IFS= read -r i; do
+          # Extract variables for the current file
           URL=$(echo "$i" | jq -r '.url')
           OUTPUT_FILENAME=$(echo "$i" | jq -r '.output_filename')
           COLUMNS_TO_DELETE_ARRAY=$(echo "$i" | jq -r '.columns_to_delete | @csv')
           COLUMNS_TO_DELETE=$(echo "${COLUMNS_TO_DELETE_ARRAY}" | sed 's/"//g') # Remove quotes from @csv output
           MILLER_FORMAT_FLAGS=$(echo "$i" | jq -r '.miller_format')
 
-          echo "Calling custom action for $OUTPUT_FILENAME..."
-          ./.github/actions/process-single-file/action.yml --file_url "$URL" \
-                                                          --output_filename "$OUTPUT_FILENAME" \
-                                                          --columns_to_delete "$COLUMNS_TO_DELETE" \
-                                                          --miller_format "$MILLER_FORMAT_FLAGS"
+          echo "--- Processing: $URL ---"
+          echo "Output filename: $OUTPUT_FILENAME"
+          echo "Columns to delete: [${COLUMNS_TO_DELETE}]"
+          echo "Miller format flags: ${MILLER_FORMAT_FLAGS}"
 
-        done # End of while loop
+          # --- Start of per-file processing logic (formerly in composite action) ---
 
-    - name: Upload all processed files as artifacts
-      uses: actions/upload-artifact@v4
-      with:
-        name: all-processed-data-files
-        path: |
-          *.csv
-          *.tsv
-          *.txt
-          *.data # Include any other potential output extensions
-        retention-days: 7
+          # Create unique temporary file name
+          TEMP_INPUT_FILE=$(mktemp)
+          echo "Created temporary file: $TEMP_INPUT_FILE"
+
+          # Ensure the temporary file is removed even if the script fails
+          trap "rm -f \"$TEMP_INPUT_FILE\"" EXIT
+
+          # 1. Download the file
+          echo "Downloading $URL to $TEMP_INPUT_FILE..."
+          curl --output "$TEMP_INPUT_FILE" "$URL"
+
+          echo "Downloaded $TEMP_INPUT_FILE head:"
+          head "$TEMP_INPUT_FILE"
+
+          # 2. Delete unwanted columns using Miller
+          echo "Processing $TEMP_INPUT_FILE with Miller..."
+          if [ -n "${COLUMNS_TO_DELETE}" ]; then
+            echo "mlr ${MILLER_FORMAT_FLAGS} cut -x -f ${COLUMNS_TO_DELETE} $TEMP_INPUT_FILE > ${OUTPUT_FILENAME}"
+            mlr ${MILLER_FORMAT_FLAGS} cut -x -f "${COLUMNS_TO_DELETE}" "$TEMP_INPUT_FILE" > "${OUTPUT_FILENAME}"
+          else
+            echo "No columns specified for deletion. Copying original to output."
+            cp "$TEMP_INPUT_FILE" "${OUTPUT_FILENAME}"
+          fi
+
+          # Check for successful output file creation
+          if [ ! -f "${OUTPUT_FILENAME}" ]; then
+            echo "Error: Processed file '${OUTPUT_FILENAME}' was not created."
+            exit 1
+          fi
+          echo "Processed ${OUTPUT_FILENAME} head:"
+          head "${OUTPUT_FILENAME}"
+
+          # Temporary file cleanup handled by trap
+          echo "--- Finished processing ${OUTPUT_FILENAME} ---"
+          echo ""
+
+        done # End of while loop for config items
+
+      shell: bash
+
+    - name: Commit and push
+      run: |-
+        git config user.name "Automated"
+        git config user.email "actions@users.noreply.github.com"
+        git add '*.csv'
+        git add '*.tsv'
+        timestamp=$(date -u)
+        git commit -m "${timestamp}" || exit 0
+        git pull --rebase
+        git push
 ```
 
-## Further changes I need to make to the code
+## Some notes to self
 
-All files extracted should be committed to the repo.
+- Can't expand miller verb names ie `-x` **cannot** be written as `-exclude` no matter what google gemini tells you.
+- Scoping of variables in github actions is a bit confusing to me. Even with a variable declared outside the do loop, while I could update the variable inside the do loop, then when the loop was exited no changes persisted.
+- I'm doing `git add '*.csv'` + `git add '*.tsv'` because if I do `git add --all` it will also add the Miller downloads that I did to install Miller which I don't want stored in my repo.
+- I strongly suspect the above code could be tidied up and improved... see below!
 
-## Massive caveat
+## Code caveat
 
-The above code was all generated by a conversation with google gemini and **has not been tested even once!** Therefore this is more a work in progress...
+The above code was generated by a conversation with google gemini. While it works and I am confortable I understand each step in principle, gemini sent me off down numerous rabbit holes in prior versions so I'm sure there are improvements to be made.
