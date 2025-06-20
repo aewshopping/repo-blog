@@ -31,6 +31,10 @@ on:
 jobs:
   build-and-deploy-test:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write 
+    
     steps:
     - uses: actions/checkout@v4
     - name: Set up Python 3.10
@@ -40,7 +44,7 @@ jobs:
         cache: "pip"
     - name: Install dependencies
       run: |
-        pip install sqlite-utils
+        pip install -r requirements.txt
     - name: Build SQLite database
       run: |
         bash ./build-db.sh
