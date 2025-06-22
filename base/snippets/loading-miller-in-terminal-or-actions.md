@@ -1,6 +1,6 @@
 ---
 title: Loading Miller in github actions or codespaces terminal
-tags: miller, github-actions
+tags: [miller, github-actions]
 date: 2025-06-05
 ---
 
