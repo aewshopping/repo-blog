@@ -10,9 +10,11 @@ All markdown files in subfolders of the `base` directory are indexed.
 
 ## Tags used
 
-[` github-actions`](# github-actions-1)&#8197;[`airtable`](#airtable-1)&#8197;[`all`](#all-32)&#8197;[`ascii`](#ascii-1)&#8197;[`css`](#css-6)&#8197;[`csv`](#csv-1)&#8197;[`eleventy`](#eleventy-4)&#8197;[`github`](#github-1)&#8197;[`github-actions`](#github-actions-2)&#8197;[`github-pages`](#github-pages-1)&#8197;[`googlesheets`](#googlesheets-1)&#8197;[`html`](#html-2)&#8197;[`javascript`](#javascript-7)&#8197;[`longer-note`](#longer-note-7)&#8197;[`miller`](#miller-1)&#8197;[`nunjucks`](#nunjucks-2)&#8197;[`regex`](#regex-5)&#8197;[`snippet`](#snippet-25)&#8197;[`sqlite`](#sqlite-6)&#8197;[`tsv`](#tsv-1)&#8197;
+[` github`](# github-1)&#8197;[` github-actions`](# github-actions-1)&#8197;[`airtable`](#airtable-1)&#8197;[`all`](#all-34)&#8197;[`ascii`](#ascii-1)&#8197;[`css`](#css-6)&#8197;[`csv`](#csv-1)&#8197;[`eleventy`](#eleventy-4)&#8197;[`git`](#git-1)&#8197;[`github`](#github-1)&#8197;[`github-actions`](#github-actions-2)&#8197;[`github-pages`](#github-pages-1)&#8197;[`googlesheets`](#googlesheets-1)&#8197;[`html`](#html-2)&#8197;[`javascript`](#javascript-7)&#8197;[`longer-note`](#longer-note-8)&#8197;[`miller`](#miller-1)&#8197;[`nunjucks`](#nunjucks-2)&#8197;[`regex`](#regex-5)&#8197;[`snippet`](#snippet-26)&#8197;[`sqlite`](#sqlite-7)&#8197;[`tsv`](#tsv-1)&#8197;
 
 ## Most recent notes
+- [Loading an sqlite database from remote github url for processing with sql.js](./base/notes/load-sqlite-from-gh.md) (22 June 2026) `longer-note` `sqlite` ` github`
+- [Inadvisable git commands](./base/snippets/inadvisable-git.md) (21 June 2025) `snippet` `git`
 - [Building an sqlite database using sqlite-utils - example](./base/snippets/sqlite-utils-build-db-example.md) (20 June 2025) `snippet` `sqlite`
 - [Github actions to download multiple files from remote urls, and delete columns](./base/notes/github-workflow-csv-tsv-manipulate.md) (15 June 2025) `longer-note` `github-actions`
 - [How to create a date filter in eleventy](./base/snippets/eleventy-date-filter.md) (11 June 2025) `snippet` `eleventy`
@@ -21,11 +23,16 @@ All markdown files in subfolders of the `base` directory are indexed.
 - [Drawing ASCII folder tree diagram](./base/snippets/create-folder-tree-in-ascii.md) (9 June 2025) `snippet` `ascii`
 - [Render a list of all tags in eleventy](./base/notes/eleventy-iterate-tags.md) (8 June 2025) `longer-note` `eleventy` `nunjucks`
 - [Auto generating an index readme file from files in a repo](./base/notes/eleventy-generate-readme-from-repo-files.md) (8 June 2025) `longer-note` `eleventy`
-- [Loading Miller in github actions or codespaces terminal](./base/snippets/loading-miller-in-terminal-or-actions.md) (5 June 2025) `snippet` `miller` ` github-actions`
-- [How to serve static sites in GitHub pages](./base/notes/eleventy-github-pages-options.md) (5 May 2025) `longer-note` `github-pages`
 
 ## Notes grouped by tag
 
+<details>
+<summary>
+
+### ` github` (1)</summary>
+- [Loading an sqlite database from remote github url for processing with sql.js](./base/notes/load-sqlite-from-gh.md) (22 June 2026) `longer-note` `sqlite` ` github`
+---
+</details>
 <details>
 <summary>
 
@@ -43,7 +50,9 @@ All markdown files in subfolders of the `base` directory are indexed.
 <details>
 <summary>
 
-### `all` (32)</summary>
+### `all` (34)</summary>
+- [Loading an sqlite database from remote github url for processing with sql.js](./base/notes/load-sqlite-from-gh.md) (22 June 2026) `longer-note` `sqlite` ` github`
+- [Inadvisable git commands](./base/snippets/inadvisable-git.md) (21 June 2025) `snippet` `git`
 - [Building an sqlite database using sqlite-utils - example](./base/snippets/sqlite-utils-build-db-example.md) (20 June 2025) `snippet` `sqlite`
 - [Github actions to download multiple files from remote urls, and delete columns](./base/notes/github-workflow-csv-tsv-manipulate.md) (15 June 2025) `longer-note` `github-actions`
 - [How to create a date filter in eleventy](./base/snippets/eleventy-date-filter.md) (11 June 2025) `snippet` `eleventy`
@@ -117,6 +126,13 @@ All markdown files in subfolders of the `base` directory are indexed.
 <details>
 <summary>
 
+### `git` (1)</summary>
+- [Inadvisable git commands](./base/snippets/inadvisable-git.md) (21 June 2025) `snippet` `git`
+---
+</details>
+<details>
+<summary>
+
 ### `github` (1)</summary>
 - [Surprising features of github flavoured markdown](./base/notes/github-flavoured-markdown-surprises.md) (11 June 2025) `longer-note` `github`
 ---
@@ -167,7 +183,8 @@ All markdown files in subfolders of the `base` directory are indexed.
 <details>
 <summary>
 
-### `longer-note` (7)</summary>
+### `longer-note` (8)</summary>
+- [Loading an sqlite database from remote github url for processing with sql.js](./base/notes/load-sqlite-from-gh.md) (22 June 2026) `longer-note` `sqlite` ` github`
 - [Github actions to download multiple files from remote urls, and delete columns](./base/notes/github-workflow-csv-tsv-manipulate.md) (15 June 2025) `longer-note` `github-actions`
 - [Surprising features of github flavoured markdown](./base/notes/github-flavoured-markdown-surprises.md) (11 June 2025) `longer-note` `github`
 - [Render a list of all tags in eleventy](./base/notes/eleventy-iterate-tags.md) (8 June 2025) `longer-note` `eleventy` `nunjucks`
@@ -206,7 +223,8 @@ All markdown files in subfolders of the `base` directory are indexed.
 <details>
 <summary>
 
-### `snippet` (25)</summary>
+### `snippet` (26)</summary>
+- [Inadvisable git commands](./base/snippets/inadvisable-git.md) (21 June 2025) `snippet` `git`
 - [Building an sqlite database using sqlite-utils - example](./base/snippets/sqlite-utils-build-db-example.md) (20 June 2025) `snippet` `sqlite`
 - [How to create a date filter in eleventy](./base/snippets/eleventy-date-filter.md) (11 June 2025) `snippet` `eleventy`
 - [How to commit files in GitHub actions](./base/snippets/commit-files-gh-actions.md) (10 June 2025) `snippet` `github-actions`
@@ -237,7 +255,8 @@ All markdown files in subfolders of the `base` directory are indexed.
 <details>
 <summary>
 
-### `sqlite` (6)</summary>
+### `sqlite` (7)</summary>
+- [Loading an sqlite database from remote github url for processing with sql.js](./base/notes/load-sqlite-from-gh.md) (22 June 2026) `longer-note` `sqlite` ` github`
 - [Building an sqlite database using sqlite-utils - example](./base/snippets/sqlite-utils-build-db-example.md) (20 June 2025) `snippet` `sqlite`
 - [You can select a random row from an sqlite table but there are faster and slower ways to do it](./base/snippets/select-random-row-sqlit.md) (14 January 2025) `snippet` `sqlite`
 - [You can&#39;t change column names in a table in SQLite unless you have version greater than 3.25.0](./base/snippets/sqlite-rename-column-challenge.md) (9 January 2025) `snippet` `sqlite`
