@@ -1,6 +1,6 @@
 ---
 title: Loading an sqlite database from remote github url for processing with sql.js
-tags: sqlite, github
+tags: [sqlite, github]
 date: 2026-06-22
 ---
 # Loading an sqlite database from remote github url for processing with sql.js
