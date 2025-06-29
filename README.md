@@ -10,10 +10,12 @@ All markdown files in subfolders of the `base` directory are indexed.
 
 ## Tags used
 
-[`airtable`](#airtable-1)&#8197;[`all`](#all-34)&#8197;[`ascii`](#ascii-1)&#8197;[`css`](#css-6)&#8197;[`csv`](#csv-1)&#8197;[`eleventy`](#eleventy-4)&#8197;[`git`](#git-1)&#8197;[`github`](#github-2)&#8197;[`github-actions`](#github-actions-3)&#8197;[`github-pages`](#github-pages-1)&#8197;[`googlesheets`](#googlesheets-1)&#8197;[`html`](#html-2)&#8197;[`javascript`](#javascript-7)&#8197;[`longer-note`](#longer-note-8)&#8197;[`miller`](#miller-1)&#8197;[`nunjucks`](#nunjucks-2)&#8197;[`regex`](#regex-5)&#8197;[`snippet`](#snippet-26)&#8197;[`sqlite`](#sqlite-7)&#8197;[`tsv`](#tsv-1)&#8197;
+[`airtable`](#airtable-1)&#8197;[`all`](#all-36)&#8197;[`ascii`](#ascii-1)&#8197;[`css`](#css-6)&#8197;[`csv`](#csv-1)&#8197;[`eleventy`](#eleventy-4)&#8197;[`git`](#git-3)&#8197;[`github`](#github-2)&#8197;[`github-actions`](#github-actions-5)&#8197;[`github-pages`](#github-pages-1)&#8197;[`googlesheets`](#googlesheets-1)&#8197;[`html`](#html-2)&#8197;[`javascript`](#javascript-7)&#8197;[`longer-note`](#longer-note-8)&#8197;[`miller`](#miller-1)&#8197;[`nunjucks`](#nunjucks-2)&#8197;[`regex`](#regex-5)&#8197;[`snippet`](#snippet-28)&#8197;[`sqlite`](#sqlite-7)&#8197;[`tsv`](#tsv-1)&#8197;
 
 ## Most recent notes
 - [Loading an sqlite database from remote github url for processing with sql.js](./base/notes/load-sqlite-from-gh.md) (22 June 2026) `longer-note` `sqlite` `github`
+- [Creating an empty branch with GitHub Actions](./base/snippets/orphan-branch.md) (29 June 2025) `snippet` `github-actions` `git`
+- [Committing to a different branch](./base/snippets/commit-to-alt-branch.md) (29 June 2025) `snippet` `github-actions` `git`
 - [Inadvisable git commands](./base/snippets/inadvisable-git.md) (21 June 2025) `snippet` `git`
 - [Building an sqlite database using sqlite-utils - example](./base/snippets/sqlite-utils-build-db-example.md) (20 June 2025) `snippet` `sqlite`
 - [Github actions to download multiple files from remote urls, and delete columns](./base/notes/github-workflow-csv-tsv-manipulate.md) (15 June 2025) `longer-note` `github-actions`
@@ -21,8 +23,6 @@ All markdown files in subfolders of the `base` directory are indexed.
 - [Surprising features of github flavoured markdown](./base/notes/github-flavoured-markdown-surprises.md) (11 June 2025) `longer-note` `github`
 - [How to commit files in GitHub actions](./base/snippets/commit-files-gh-actions.md) (10 June 2025) `snippet` `github-actions`
 - [Drawing ASCII folder tree diagram](./base/snippets/create-folder-tree-in-ascii.md) (9 June 2025) `snippet` `ascii`
-- [Render a list of all tags in eleventy](./base/notes/eleventy-iterate-tags.md) (8 June 2025) `longer-note` `eleventy` `nunjucks`
-- [Auto generating an index readme file from files in a repo](./base/notes/eleventy-generate-readme-from-repo-files.md) (8 June 2025) `longer-note` `eleventy`
 
 ## Notes grouped by tag
 
@@ -36,8 +36,10 @@ All markdown files in subfolders of the `base` directory are indexed.
 <details>
 <summary>
 
-### `all` (34)</summary>
+### `all` (36)</summary>
 - [Loading an sqlite database from remote github url for processing with sql.js](./base/notes/load-sqlite-from-gh.md) (22 June 2026) `longer-note` `sqlite` `github`
+- [Creating an empty branch with GitHub Actions](./base/snippets/orphan-branch.md) (29 June 2025) `snippet` `github-actions` `git`
+- [Committing to a different branch](./base/snippets/commit-to-alt-branch.md) (29 June 2025) `snippet` `github-actions` `git`
 - [Inadvisable git commands](./base/snippets/inadvisable-git.md) (21 June 2025) `snippet` `git`
 - [Building an sqlite database using sqlite-utils - example](./base/snippets/sqlite-utils-build-db-example.md) (20 June 2025) `snippet` `sqlite`
 - [Github actions to download multiple files from remote urls, and delete columns](./base/notes/github-workflow-csv-tsv-manipulate.md) (15 June 2025) `longer-note` `github-actions`
@@ -112,7 +114,9 @@ All markdown files in subfolders of the `base` directory are indexed.
 <details>
 <summary>
 
-### `git` (1)</summary>
+### `git` (3)</summary>
+- [Creating an empty branch with GitHub Actions](./base/snippets/orphan-branch.md) (29 June 2025) `snippet` `github-actions` `git`
+- [Committing to a different branch](./base/snippets/commit-to-alt-branch.md) (29 June 2025) `snippet` `github-actions` `git`
 - [Inadvisable git commands](./base/snippets/inadvisable-git.md) (21 June 2025) `snippet` `git`
 ---
 </details>
@@ -127,7 +131,9 @@ All markdown files in subfolders of the `base` directory are indexed.
 <details>
 <summary>
 
-### `github-actions` (3)</summary>
+### `github-actions` (5)</summary>
+- [Creating an empty branch with GitHub Actions](./base/snippets/orphan-branch.md) (29 June 2025) `snippet` `github-actions` `git`
+- [Committing to a different branch](./base/snippets/commit-to-alt-branch.md) (29 June 2025) `snippet` `github-actions` `git`
 - [Github actions to download multiple files from remote urls, and delete columns](./base/notes/github-workflow-csv-tsv-manipulate.md) (15 June 2025) `longer-note` `github-actions`
 - [How to commit files in GitHub actions](./base/snippets/commit-files-gh-actions.md) (10 June 2025) `snippet` `github-actions`
 - [Loading Miller in github actions or codespaces terminal](./base/snippets/loading-miller-in-terminal-or-actions.md) (5 June 2025) `snippet` `miller` `github-actions`
@@ -211,7 +217,9 @@ All markdown files in subfolders of the `base` directory are indexed.
 <details>
 <summary>
 
-### `snippet` (26)</summary>
+### `snippet` (28)</summary>
+- [Creating an empty branch with GitHub Actions](./base/snippets/orphan-branch.md) (29 June 2025) `snippet` `github-actions` `git`
+- [Committing to a different branch](./base/snippets/commit-to-alt-branch.md) (29 June 2025) `snippet` `github-actions` `git`
 - [Inadvisable git commands](./base/snippets/inadvisable-git.md) (21 June 2025) `snippet` `git`
 - [Building an sqlite database using sqlite-utils - example](./base/snippets/sqlite-utils-build-db-example.md) (20 June 2025) `snippet` `sqlite`
 - [How to create a date filter in eleventy](./base/snippets/eleventy-date-filter.md) (11 June 2025) `snippet` `eleventy`
