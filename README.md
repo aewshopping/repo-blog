@@ -10,11 +10,11 @@ All markdown files in subfolders of the `base` directory are indexed.
 
 ## Tags used
 
-[`airtable`](#airtable-1)&#8197;[`all`](#all-38)&#8197;[`ascii`](#ascii-1)&#8197;[`codespaces`](#codespaces-1)&#8197;[`css`](#css-7)&#8197;[`csv`](#csv-1)&#8197;[`eleventy`](#eleventy-5)&#8197;[`git`](#git-3)&#8197;[`github`](#github-2)&#8197;[`GitHub`](#GitHub-1)&#8197;[`github-actions`](#github-actions-5)&#8197;[`github-pages`](#github-pages-1)&#8197;[`googlesheets`](#googlesheets-1)&#8197;[`html`](#html-3)&#8197;[`javascript`](#javascript-7)&#8197;[`longer-note`](#longer-note-9)&#8197;[`miller`](#miller-1)&#8197;[`nunjucks`](#nunjucks-2)&#8197;[`regex`](#regex-5)&#8197;[`snippet`](#snippet-29)&#8197;[`sqlite`](#sqlite-7)&#8197;[`tsv`](#tsv-1)&#8197;[`word`](#word-1)&#8197;
+[`airtable`](#airtable-1)&#8197;[`all`](#all-38)&#8197;[`ascii`](#ascii-1)&#8197;[`css`](#css-7)&#8197;[`csv`](#csv-1)&#8197;[`eleventy`](#eleventy-5)&#8197;[`git`](#git-3)&#8197;[`github`](#github-2)&#8197;[`github-actions`](#github-actions-5)&#8197;[`github-codespaces`](#github-codespaces-1)&#8197;[`github-pages`](#github-pages-1)&#8197;[`googlesheets`](#googlesheets-1)&#8197;[`html`](#html-3)&#8197;[`javascript`](#javascript-7)&#8197;[`longer-note`](#longer-note-9)&#8197;[`miller`](#miller-1)&#8197;[`nunjucks`](#nunjucks-2)&#8197;[`regex`](#regex-5)&#8197;[`snippet`](#snippet-29)&#8197;[`sqlite`](#sqlite-7)&#8197;[`tsv`](#tsv-1)&#8197;[`word`](#word-1)&#8197;
 
 ## Most recent notes
 - [Opening an html file with microsoft word - how to use css to control styles and layouts](./base/notes/html-to-word.md) (21 August 2025) `longer-note` `css` `word` `html` `eleventy`
-- [Using secrets in GitHub codespaces](./base/snippets/github-codespaces-secrets.md) (15 August 2025) `snippet` `GitHub` `codespaces`
+- [Using secrets in GitHub codespaces](./base/snippets/github-codespaces-secrets.md) (15 August 2025) `snippet` `github-codespaces`
 - [Creating an empty branch with GitHub Actions](./base/snippets/orphan-branch.md) (29 June 2025) `snippet` `github-actions` `git`
 - [Committing to a different branch](./base/snippets/commit-to-alt-branch.md) (29 June 2025) `snippet` `github-actions` `git`
 - [Loading an sqlite database from remote github url for processing with sql.js](./base/notes/load-sqlite-from-gh.md) (22 June 2025) `longer-note` `sqlite` `github`
@@ -38,7 +38,7 @@ All markdown files in subfolders of the `base` directory are indexed.
 
 ### `all` (38)</summary>
 - [Opening an html file with microsoft word - how to use css to control styles and layouts](./base/notes/html-to-word.md) (21 August 2025) `longer-note` `css` `word` `html` `eleventy`
-- [Using secrets in GitHub codespaces](./base/snippets/github-codespaces-secrets.md) (15 August 2025) `snippet` `GitHub` `codespaces`
+- [Using secrets in GitHub codespaces](./base/snippets/github-codespaces-secrets.md) (15 August 2025) `snippet` `github-codespaces`
 - [Creating an empty branch with GitHub Actions](./base/snippets/orphan-branch.md) (29 June 2025) `snippet` `github-actions` `git`
 - [Committing to a different branch](./base/snippets/commit-to-alt-branch.md) (29 June 2025) `snippet` `github-actions` `git`
 - [Loading an sqlite database from remote github url for processing with sql.js](./base/notes/load-sqlite-from-gh.md) (22 June 2025) `longer-note` `sqlite` `github`
@@ -82,13 +82,6 @@ All markdown files in subfolders of the `base` directory are indexed.
 
 ### `ascii` (1)</summary>
 - [Drawing ASCII folder tree diagram](./base/snippets/create-folder-tree-in-ascii.md) (9 June 2025) `snippet` `ascii`
----
-</details>
-<details>
-<summary>
-
-### `codespaces` (1)</summary>
-- [Using secrets in GitHub codespaces](./base/snippets/github-codespaces-secrets.md) (15 August 2025) `snippet` `GitHub` `codespaces`
 ---
 </details>
 <details>
@@ -142,19 +135,19 @@ All markdown files in subfolders of the `base` directory are indexed.
 <details>
 <summary>
 
-### `GitHub` (1)</summary>
-- [Using secrets in GitHub codespaces](./base/snippets/github-codespaces-secrets.md) (15 August 2025) `snippet` `GitHub` `codespaces`
----
-</details>
-<details>
-<summary>
-
 ### `github-actions` (5)</summary>
 - [Creating an empty branch with GitHub Actions](./base/snippets/orphan-branch.md) (29 June 2025) `snippet` `github-actions` `git`
 - [Committing to a different branch](./base/snippets/commit-to-alt-branch.md) (29 June 2025) `snippet` `github-actions` `git`
 - [Github actions to download multiple files from remote urls, and delete columns](./base/notes/github-workflow-csv-tsv-manipulate.md) (15 June 2025) `longer-note` `github-actions`
 - [How to commit files in GitHub actions](./base/snippets/commit-files-gh-actions.md) (10 June 2025) `snippet` `github-actions`
 - [Loading Miller in github actions or codespaces terminal](./base/snippets/loading-miller-in-terminal-or-actions.md) (5 June 2025) `snippet` `miller` `github-actions`
+---
+</details>
+<details>
+<summary>
+
+### `github-codespaces` (1)</summary>
+- [Using secrets in GitHub codespaces](./base/snippets/github-codespaces-secrets.md) (15 August 2025) `snippet` `github-codespaces`
 ---
 </details>
 <details>
@@ -238,7 +231,7 @@ All markdown files in subfolders of the `base` directory are indexed.
 <summary>
 
 ### `snippet` (29)</summary>
-- [Using secrets in GitHub codespaces](./base/snippets/github-codespaces-secrets.md) (15 August 2025) `snippet` `GitHub` `codespaces`
+- [Using secrets in GitHub codespaces](./base/snippets/github-codespaces-secrets.md) (15 August 2025) `snippet` `github-codespaces`
 - [Creating an empty branch with GitHub Actions](./base/snippets/orphan-branch.md) (29 June 2025) `snippet` `github-actions` `git`
 - [Committing to a different branch](./base/snippets/commit-to-alt-branch.md) (29 June 2025) `snippet` `github-actions` `git`
 - [Inadvisable git commands](./base/snippets/inadvisable-git.md) (21 June 2025) `snippet` `git`
