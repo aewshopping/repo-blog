@@ -10,19 +10,19 @@ All markdown files in subfolders of the `base` directory are indexed.
 
 ## Tags used
 
-[`airtable`](#airtable-1)&#8197;[`all`](#all-36)&#8197;[`ascii`](#ascii-1)&#8197;[`css`](#css-6)&#8197;[`csv`](#csv-1)&#8197;[`eleventy`](#eleventy-4)&#8197;[`git`](#git-3)&#8197;[`github`](#github-2)&#8197;[`github-actions`](#github-actions-5)&#8197;[`github-pages`](#github-pages-1)&#8197;[`googlesheets`](#googlesheets-1)&#8197;[`html`](#html-2)&#8197;[`javascript`](#javascript-7)&#8197;[`longer-note`](#longer-note-8)&#8197;[`miller`](#miller-1)&#8197;[`nunjucks`](#nunjucks-2)&#8197;[`regex`](#regex-5)&#8197;[`snippet`](#snippet-28)&#8197;[`sqlite`](#sqlite-7)&#8197;[`tsv`](#tsv-1)&#8197;
+[`airtable`](#airtable-1)&#8197;[`all`](#all-38)&#8197;[`ascii`](#ascii-1)&#8197;[`css`](#css-7)&#8197;[`csv`](#csv-1)&#8197;[`eleventy`](#eleventy-5)&#8197;[`git`](#git-3)&#8197;[`github`](#github-2)&#8197;[`GitHub codespaces`](#GitHub codespaces-1)&#8197;[`github-actions`](#github-actions-5)&#8197;[`github-pages`](#github-pages-1)&#8197;[`googlesheets`](#googlesheets-1)&#8197;[`html`](#html-3)&#8197;[`javascript`](#javascript-7)&#8197;[`longer-note`](#longer-note-9)&#8197;[`miller`](#miller-1)&#8197;[`nunjucks`](#nunjucks-2)&#8197;[`regex`](#regex-5)&#8197;[`snippet`](#snippet-29)&#8197;[`sqlite`](#sqlite-7)&#8197;[`tsv`](#tsv-1)&#8197;[`word`](#word-1)&#8197;
 
 ## Most recent notes
-- [Loading an sqlite database from remote github url for processing with sql.js](./base/notes/load-sqlite-from-gh.md) (22 June 2026) `longer-note` `sqlite` `github`
+- [Opening an html file with microsoft word - how to use css to control styles and layouts](./base/notes/html-to-word.md) (21 August 2025) `longer-note` `css` `word` `html` `eleventy`
+- [Using secrets in GitHub codespaces](./base/snippets/github-codespaces-secrets.md) (15 August 2025) `snippet` `GitHub codespaces`
 - [Creating an empty branch with GitHub Actions](./base/snippets/orphan-branch.md) (29 June 2025) `snippet` `github-actions` `git`
 - [Committing to a different branch](./base/snippets/commit-to-alt-branch.md) (29 June 2025) `snippet` `github-actions` `git`
+- [Loading an sqlite database from remote github url for processing with sql.js](./base/notes/load-sqlite-from-gh.md) (22 June 2025) `longer-note` `sqlite` `github`
 - [Inadvisable git commands](./base/snippets/inadvisable-git.md) (21 June 2025) `snippet` `git`
 - [Building an sqlite database using sqlite-utils - example](./base/snippets/sqlite-utils-build-db-example.md) (20 June 2025) `snippet` `sqlite`
 - [Github actions to download multiple files from remote urls, and delete columns](./base/notes/github-workflow-csv-tsv-manipulate.md) (15 June 2025) `longer-note` `github-actions`
 - [How to create a date filter in eleventy](./base/snippets/eleventy-date-filter.md) (11 June 2025) `snippet` `eleventy`
 - [Surprising features of github flavoured markdown](./base/notes/github-flavoured-markdown-surprises.md) (11 June 2025) `longer-note` `github`
-- [How to commit files in GitHub actions](./base/snippets/commit-files-gh-actions.md) (10 June 2025) `snippet` `github-actions`
-- [Drawing ASCII folder tree diagram](./base/snippets/create-folder-tree-in-ascii.md) (9 June 2025) `snippet` `ascii`
 
 ## Notes grouped by tag
 
@@ -36,10 +36,12 @@ All markdown files in subfolders of the `base` directory are indexed.
 <details>
 <summary>
 
-### `all` (36)</summary>
-- [Loading an sqlite database from remote github url for processing with sql.js](./base/notes/load-sqlite-from-gh.md) (22 June 2026) `longer-note` `sqlite` `github`
+### `all` (38)</summary>
+- [Opening an html file with microsoft word - how to use css to control styles and layouts](./base/notes/html-to-word.md) (21 August 2025) `longer-note` `css` `word` `html` `eleventy`
+- [Using secrets in GitHub codespaces](./base/snippets/github-codespaces-secrets.md) (15 August 2025) `snippet` `GitHub codespaces`
 - [Creating an empty branch with GitHub Actions](./base/snippets/orphan-branch.md) (29 June 2025) `snippet` `github-actions` `git`
 - [Committing to a different branch](./base/snippets/commit-to-alt-branch.md) (29 June 2025) `snippet` `github-actions` `git`
+- [Loading an sqlite database from remote github url for processing with sql.js](./base/notes/load-sqlite-from-gh.md) (22 June 2025) `longer-note` `sqlite` `github`
 - [Inadvisable git commands](./base/snippets/inadvisable-git.md) (21 June 2025) `snippet` `git`
 - [Building an sqlite database using sqlite-utils - example](./base/snippets/sqlite-utils-build-db-example.md) (20 June 2025) `snippet` `sqlite`
 - [Github actions to download multiple files from remote urls, and delete columns](./base/notes/github-workflow-csv-tsv-manipulate.md) (15 June 2025) `longer-note` `github-actions`
@@ -85,7 +87,8 @@ All markdown files in subfolders of the `base` directory are indexed.
 <details>
 <summary>
 
-### `css` (6)</summary>
+### `css` (7)</summary>
+- [Opening an html file with microsoft word - how to use css to control styles and layouts](./base/notes/html-to-word.md) (21 August 2025) `longer-note` `css` `word` `html` `eleventy`
 - [css paragraph text height](./base/snippets/css-para-height.md) (31 March 2025) `snippet` `css`
 - [focus-visible is a good way to register focus state](./base/snippets/focus-visible-for-focus.md) (30 January 2025) `snippet` `css`
 - [Tweaking colour to some other colour in css](./base/snippets/css-tweak-colour.md) (30 January 2025) `snippet` `css`
@@ -104,7 +107,8 @@ All markdown files in subfolders of the `base` directory are indexed.
 <details>
 <summary>
 
-### `eleventy` (4)</summary>
+### `eleventy` (5)</summary>
+- [Opening an html file with microsoft word - how to use css to control styles and layouts](./base/notes/html-to-word.md) (21 August 2025) `longer-note` `css` `word` `html` `eleventy`
 - [How to create a date filter in eleventy](./base/snippets/eleventy-date-filter.md) (11 June 2025) `snippet` `eleventy`
 - [Render a list of all tags in eleventy](./base/notes/eleventy-iterate-tags.md) (8 June 2025) `longer-note` `eleventy` `nunjucks`
 - [Auto generating an index readme file from files in a repo](./base/notes/eleventy-generate-readme-from-repo-files.md) (8 June 2025) `longer-note` `eleventy`
@@ -124,8 +128,15 @@ All markdown files in subfolders of the `base` directory are indexed.
 <summary>
 
 ### `github` (2)</summary>
-- [Loading an sqlite database from remote github url for processing with sql.js](./base/notes/load-sqlite-from-gh.md) (22 June 2026) `longer-note` `sqlite` `github`
+- [Loading an sqlite database from remote github url for processing with sql.js](./base/notes/load-sqlite-from-gh.md) (22 June 2025) `longer-note` `sqlite` `github`
 - [Surprising features of github flavoured markdown](./base/notes/github-flavoured-markdown-surprises.md) (11 June 2025) `longer-note` `github`
+---
+</details>
+<details>
+<summary>
+
+### `GitHub codespaces` (1)</summary>
+- [Using secrets in GitHub codespaces](./base/snippets/github-codespaces-secrets.md) (15 August 2025) `snippet` `GitHub codespaces`
 ---
 </details>
 <details>
@@ -156,7 +167,8 @@ All markdown files in subfolders of the `base` directory are indexed.
 <details>
 <summary>
 
-### `html` (2)</summary>
+### `html` (3)</summary>
+- [Opening an html file with microsoft word - how to use css to control styles and layouts](./base/notes/html-to-word.md) (21 August 2025) `longer-note` `css` `word` `html` `eleventy`
 - [How to style html details elements with css](./base/snippets/styling-details-element-css.md) (26 January 2025) `snippet` `css` `html`
 - [Links with text fragments can link to specific text on a webpage](./base/notes/html-text-frags.md) (13 January 2025) `longer-note` `html` `javascript`
 ---
@@ -177,8 +189,9 @@ All markdown files in subfolders of the `base` directory are indexed.
 <details>
 <summary>
 
-### `longer-note` (8)</summary>
-- [Loading an sqlite database from remote github url for processing with sql.js](./base/notes/load-sqlite-from-gh.md) (22 June 2026) `longer-note` `sqlite` `github`
+### `longer-note` (9)</summary>
+- [Opening an html file with microsoft word - how to use css to control styles and layouts](./base/notes/html-to-word.md) (21 August 2025) `longer-note` `css` `word` `html` `eleventy`
+- [Loading an sqlite database from remote github url for processing with sql.js](./base/notes/load-sqlite-from-gh.md) (22 June 2025) `longer-note` `sqlite` `github`
 - [Github actions to download multiple files from remote urls, and delete columns](./base/notes/github-workflow-csv-tsv-manipulate.md) (15 June 2025) `longer-note` `github-actions`
 - [Surprising features of github flavoured markdown](./base/notes/github-flavoured-markdown-surprises.md) (11 June 2025) `longer-note` `github`
 - [Render a list of all tags in eleventy](./base/notes/eleventy-iterate-tags.md) (8 June 2025) `longer-note` `eleventy` `nunjucks`
@@ -217,7 +230,8 @@ All markdown files in subfolders of the `base` directory are indexed.
 <details>
 <summary>
 
-### `snippet` (28)</summary>
+### `snippet` (29)</summary>
+- [Using secrets in GitHub codespaces](./base/snippets/github-codespaces-secrets.md) (15 August 2025) `snippet` `GitHub codespaces`
 - [Creating an empty branch with GitHub Actions](./base/snippets/orphan-branch.md) (29 June 2025) `snippet` `github-actions` `git`
 - [Committing to a different branch](./base/snippets/commit-to-alt-branch.md) (29 June 2025) `snippet` `github-actions` `git`
 - [Inadvisable git commands](./base/snippets/inadvisable-git.md) (21 June 2025) `snippet` `git`
@@ -252,7 +266,7 @@ All markdown files in subfolders of the `base` directory are indexed.
 <summary>
 
 ### `sqlite` (7)</summary>
-- [Loading an sqlite database from remote github url for processing with sql.js](./base/notes/load-sqlite-from-gh.md) (22 June 2026) `longer-note` `sqlite` `github`
+- [Loading an sqlite database from remote github url for processing with sql.js](./base/notes/load-sqlite-from-gh.md) (22 June 2025) `longer-note` `sqlite` `github`
 - [Building an sqlite database using sqlite-utils - example](./base/snippets/sqlite-utils-build-db-example.md) (20 June 2025) `snippet` `sqlite`
 - [You can select a random row from an sqlite table but there are faster and slower ways to do it](./base/snippets/select-random-row-sqlit.md) (14 January 2025) `snippet` `sqlite`
 - [You can&#39;t change column names in a table in SQLite unless you have version greater than 3.25.0](./base/snippets/sqlite-rename-column-challenge.md) (9 January 2025) `snippet` `sqlite`
@@ -266,5 +280,12 @@ All markdown files in subfolders of the `base` directory are indexed.
 
 ### `tsv` (1)</summary>
 - [csv files cannot contain line breaks in a field entry](./base/snippets/csv-no-line-breaks-in-cell.md) (10 January 2025) `snippet` `csv` `tsv`
+---
+</details>
+<details>
+<summary>
+
+### `word` (1)</summary>
+- [Opening an html file with microsoft word - how to use css to control styles and layouts](./base/notes/html-to-word.md) (21 August 2025) `longer-note` `css` `word` `html` `eleventy`
 ---
 </details>
