@@ -1,7 +1,7 @@
 ---
 title: Using secrets in GitHub codespaces
 date: 2025-08-15
-tags: [GitHub, codespaces]
+tags: [github-codespaces]
 ---
 # Using secrets in GitHub codespaces
 
