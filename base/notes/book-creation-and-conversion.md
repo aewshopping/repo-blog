@@ -1,6 +1,6 @@
 ---
 title: Converting html to pdf or epub file
-tag: [epub, pdf]
+tag: [epub]
 date: 2025-09-11
 ---
 # Converting html to pdf or epub file
