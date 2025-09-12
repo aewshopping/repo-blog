@@ -1,6 +1,6 @@
 ---
 title: Random epub notes
-tag: [epub]
+tags: [epub]
 date: 2025-09-12
 ---
 # Random epub notes
@@ -29,4 +29,5 @@ date: 2025-09-12
 - Even if you subsequently correct errors and re upload.
   - I say probably because on my kindle paperwhite it automatically updated to the new version of the book.
   - But on my Kindle android app the same book did not update (even though `Book Updates` is set to `Automatic`)
+
 - Basically you should correct all your mistakes first time round `:-)`
