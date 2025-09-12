@@ -1,6 +1,6 @@
 ---
 title: Converting html to pdf or epub file
-tag: [epub]
+tags: [epub]
 date: 2025-09-11
 ---
 # Converting html to pdf or epub file
@@ -72,4 +72,5 @@ Updating a kindle book doesn't push through to previously bought copies. Ie you 
   - Smarten quotes - tick this box
   - Regex find `_(.*?)_` and replace `<i>\1</i>` - to catch the few markdown italics that my markdown parser always misses.
   - Set h2 as sub chapters (h1 as main chapters)
+
 - Calibre is also by far and away the best way of _editing_ epub files that I have found and allows you to mess with all the code in all the files, find and replace across multiple files, regex etc etc. Excellent.
