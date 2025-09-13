@@ -10,11 +10,11 @@ All markdown files in subfolders of the `base` directory are indexed.
 
 ## Tags used
 
-[`airtable`](#airtable-1)&#8197;[`all`](#all-40)&#8197;[`ascii`](#ascii-1)&#8197;[`css`](#css-7)&#8197;[`csv`](#csv-1)&#8197;[`eleventy`](#eleventy-5)&#8197;[`git`](#git-3)&#8197;[`github`](#github-2)&#8197;[`github-actions`](#github-actions-5)&#8197;[`github-codespaces`](#github-codespaces-1)&#8197;[`github-pages`](#github-pages-1)&#8197;[`googlesheets`](#googlesheets-1)&#8197;[`html`](#html-3)&#8197;[`javascript`](#javascript-7)&#8197;[`longer-note`](#longer-note-11)&#8197;[`miller`](#miller-1)&#8197;[`nunjucks`](#nunjucks-2)&#8197;[`regex`](#regex-5)&#8197;[`snippet`](#snippet-29)&#8197;[`sqlite`](#sqlite-7)&#8197;[`tsv`](#tsv-1)&#8197;[`word`](#word-1)&#8197;
+[`airtable`](#airtable-1)&#8197;[`all`](#all-40)&#8197;[`ascii`](#ascii-1)&#8197;[`css`](#css-7)&#8197;[`csv`](#csv-1)&#8197;[`eleventy`](#eleventy-5)&#8197;[`epub`](#epub-2)&#8197;[`git`](#git-3)&#8197;[`github`](#github-2)&#8197;[`github-actions`](#github-actions-5)&#8197;[`github-codespaces`](#github-codespaces-1)&#8197;[`github-pages`](#github-pages-1)&#8197;[`googlesheets`](#googlesheets-1)&#8197;[`html`](#html-3)&#8197;[`javascript`](#javascript-7)&#8197;[`longer-note`](#longer-note-11)&#8197;[`miller`](#miller-1)&#8197;[`nunjucks`](#nunjucks-2)&#8197;[`regex`](#regex-5)&#8197;[`snippet`](#snippet-29)&#8197;[`sqlite`](#sqlite-7)&#8197;[`tsv`](#tsv-1)&#8197;[`word`](#word-1)&#8197;
 
 ## Most recent notes
-- [Random epub notes](./base/notes/epub-random-notes.md) (12 September 2025) `longer-note`
-- [Converting html to pdf or epub file](./base/notes/book-creation-and-conversion.md) (11 September 2025) `longer-note`
+- [Random epub notes](./base/notes/epub-random-notes.md) (12 September 2025) `longer-note` `epub`
+- [Converting html to pdf or epub file](./base/notes/book-creation-and-conversion.md) (11 September 2025) `longer-note` `epub`
 - [Opening an html file with microsoft word - how to use css to control styles and layouts](./base/notes/html-to-word.md) (21 August 2025) `longer-note` `css` `word` `html` `eleventy`
 - [Using secrets in GitHub codespaces](./base/snippets/github-codespaces-secrets.md) (15 August 2025) `snippet` `github-codespaces`
 - [Creating an empty branch with GitHub Actions](./base/snippets/orphan-branch.md) (29 June 2025) `snippet` `github-actions` `git`
@@ -37,8 +37,8 @@ All markdown files in subfolders of the `base` directory are indexed.
 <summary>
 
 ### `all` (40)</summary>
-- [Random epub notes](./base/notes/epub-random-notes.md) (12 September 2025) `longer-note`
-- [Converting html to pdf or epub file](./base/notes/book-creation-and-conversion.md) (11 September 2025) `longer-note`
+- [Random epub notes](./base/notes/epub-random-notes.md) (12 September 2025) `longer-note` `epub`
+- [Converting html to pdf or epub file](./base/notes/book-creation-and-conversion.md) (11 September 2025) `longer-note` `epub`
 - [Opening an html file with microsoft word - how to use css to control styles and layouts](./base/notes/html-to-word.md) (21 August 2025) `longer-note` `css` `word` `html` `eleventy`
 - [Using secrets in GitHub codespaces](./base/snippets/github-codespaces-secrets.md) (15 August 2025) `snippet` `github-codespaces`
 - [Creating an empty branch with GitHub Actions](./base/snippets/orphan-branch.md) (29 June 2025) `snippet` `github-actions` `git`
@@ -120,6 +120,14 @@ All markdown files in subfolders of the `base` directory are indexed.
 <details>
 <summary>
 
+### `epub` (2)</summary>
+- [Random epub notes](./base/notes/epub-random-notes.md) (12 September 2025) `longer-note` `epub`
+- [Converting html to pdf or epub file](./base/notes/book-creation-and-conversion.md) (11 September 2025) `longer-note` `epub`
+---
+</details>
+<details>
+<summary>
+
 ### `git` (3)</summary>
 - [Creating an empty branch with GitHub Actions](./base/snippets/orphan-branch.md) (29 June 2025) `snippet` `github-actions` `git`
 - [Committing to a different branch](./base/snippets/commit-to-alt-branch.md) (29 June 2025) `snippet` `github-actions` `git`
@@ -192,8 +200,8 @@ All markdown files in subfolders of the `base` directory are indexed.
 <summary>
 
 ### `longer-note` (11)</summary>
-- [Random epub notes](./base/notes/epub-random-notes.md) (12 September 2025) `longer-note`
-- [Converting html to pdf or epub file](./base/notes/book-creation-and-conversion.md) (11 September 2025) `longer-note`
+- [Random epub notes](./base/notes/epub-random-notes.md) (12 September 2025) `longer-note` `epub`
+- [Converting html to pdf or epub file](./base/notes/book-creation-and-conversion.md) (11 September 2025) `longer-note` `epub`
 - [Opening an html file with microsoft word - how to use css to control styles and layouts](./base/notes/html-to-word.md) (21 August 2025) `longer-note` `css` `word` `html` `eleventy`
 - [Loading an sqlite database from remote github url for processing with sql.js](./base/notes/load-sqlite-from-gh.md) (22 June 2025) `longer-note` `sqlite` `github`
 - [Github actions to download multiple files from remote urls, and delete columns](./base/notes/github-workflow-csv-tsv-manipulate.md) (15 June 2025) `longer-note` `github-actions`
