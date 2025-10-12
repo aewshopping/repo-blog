@@ -1,7 +1,7 @@
 ---
 title: Adding event listeners in JavaScript - data attribute event delegation
 date: 2025-10-10
-tags: JavaScript
+tags: javascript
 ---
 # Adding event listeners in JavaScript - data attribute event delegation
 
