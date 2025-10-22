@@ -132,7 +132,11 @@ function handleCloseModal() {
 
 ### Hiding elements explicitly
 
-- To avoid elements flashing up at the end of beginning of animations I also needed apply a 'hider' class. View transition didn't quite work as I would have expected here but it was relatively simple to correct for this - pop in the `opacity:0` class (or alternatively `display:hidden` class) whenever you definitely shouldn't see the dialog!
+- To avoid elements flashing up at the end of close modal animations I also needed apply a 'hider' class. View transition didn't quite work as I would have expected here but it was relatively simple to correct for this - pop in the `opacity:0` class (or alternatively `display:hidden` class) when you definitely shouldn't see the dialog!
+- This was only needed in the close modal function.
+
+### Transitioning the backdrop of the modal with view transitions
+
 - Transitioning the backdrop of the modal was extremely fiddly to figure out although in the end the solution that I landed on was pretty compact.
 - The problem I found was that I could either transition _in_, or transition _out_ the backdrop with a fade, but I struggled to make both work. 
 - Anyway here is what I did
@@ -157,22 +161,20 @@ dialog::backdrop {
 }
 ```
 
-The JavaScript is then easy enought to integrate with the rest of the view transition (also showing with `opacity-0` class as mentioned above): 
+The JavaScript is then easy enought to integrate with the rest of the view transition: 
 
 ```JavaScript
 function handleOpenFileContent(event, target) {
-  file_box = target;
-  movingbox.classList.add("opacity-0"); // so it doesn't flash up on first open
 
+  file_box = target;
   file_box.classList.add("moving-file-content-view"); // animate *from* this element
-  dialog.showModal();
 
   // 3. Animate the move (State 1 -> State 2)
   document.startViewTransition(function () {
 
+    dialog.showModal();
     dialog.classList.add("dialog-view"); ////// BACKDROP FADE IN! ////// 
     movingbox.classList.add("moving-file-content-view");  // animate *to* this file target element
-    movingbox.classList.remove("opacity-0"); // so you can now see it
     file_box.classList.remove("moving-file-content-view");
 
     loadContentModal();
@@ -180,13 +182,12 @@ function handleOpenFileContent(event, target) {
 }
 ```
 
-And for the close function:
+And for the close function (also showing with `opacity-0` class as mentioned above):
 
 ```javascript
 function handleCloseModal() {
 
   movingbox.classList.add("moving-file-content-view"); // make sure animating **from** modal view
-  movingbox.classList.remove("opacity-0"); // and you can see it
 
   const transition = document.startViewTransition(function () {
 
@@ -201,6 +202,7 @@ function handleCloseModal() {
     dialog.close();
     file_box.classList.remove("moving-file-content-view"); // make sure everything removed ready for next time
     movingbox.classList.remove("moving-file-content-view"); // make sure everything removed ready for next time
+    movingbox.classList.remove("opacity-0"); // make sure everything removed ready for next time
   });
 
 }
