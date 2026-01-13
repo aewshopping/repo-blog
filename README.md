@@ -13,7 +13,7 @@ All markdown files in subfolders of the `base` directory are indexed.
 [`airtable`](#airtable-1)&#8197;[`all`](#all-46)&#8197;[`ascii`](#ascii-1)&#8197;[`css`](#css-9)&#8197;[`csv`](#csv-1)&#8197;[`eleventy`](#eleventy-5)&#8197;[`epub`](#epub-2)&#8197;[`git`](#git-3)&#8197;[`github`](#github-2)&#8197;[`github-actions`](#github-actions-5)&#8197;[`github-codespaces`](#github-codespaces-1)&#8197;[`github-pages`](#github-pages-1)&#8197;[`googlesheets`](#googlesheets-1)&#8197;[`html`](#html-3)&#8197;[`javascript`](#javascript-11)&#8197;[`longer-note`](#longer-note-14)&#8197;[`miller`](#miller-1)&#8197;[`nunjucks`](#nunjucks-2)&#8197;[`regex`](#regex-5)&#8197;[`snippet`](#snippet-32)&#8197;[`sqlite`](#sqlite-7)&#8197;[`tsv`](#tsv-1)&#8197;[`word`](#word-1)&#8197;
 
 ## Most recent notes
-- [What constant does when assigned to an object in javascript](./base/snippets/constant assign to object.md) (13 January 2026) `snippet` `javascript`
+- [What constant does when assigned to an object in javascript](./base/snippets/constant-assign-to-object.md) (13 January 2026) `snippet` `javascript`
 - [Javascript map data structure, some introductory notes](./base/notes/javascript_map_structure.md) (13 January 2026) `longer-note` `javascript`
 - [How to add some spring or bounce in your CSS transitions](./base/snippets/css-spring-transitions.md) (30 October 2025) `snippet` `css`
 - [Single page view transitions and dialogs](./base/notes/singe-page-view-transitions-and-dialogs.md) (21 October 2025) `longer-note` `javascript`
@@ -37,7 +37,7 @@ All markdown files in subfolders of the `base` directory are indexed.
 <summary>
 
 ### `all` (46)</summary>
-- [What constant does when assigned to an object in javascript](./base/snippets/constant assign to object.md) (13 January 2026) `snippet` `javascript`
+- [What constant does when assigned to an object in javascript](./base/snippets/constant-assign-to-object.md) (13 January 2026) `snippet` `javascript`
 - [Javascript map data structure, some introductory notes](./base/notes/javascript_map_structure.md) (13 January 2026) `longer-note` `javascript`
 - [How to add some spring or bounce in your CSS transitions](./base/snippets/css-spring-transitions.md) (30 October 2025) `snippet` `css`
 - [Single page view transitions and dialogs](./base/notes/singe-page-view-transitions-and-dialogs.md) (21 October 2025) `longer-note` `javascript`
@@ -195,7 +195,7 @@ All markdown files in subfolders of the `base` directory are indexed.
 <summary>
 
 ### `javascript` (11)</summary>
-- [What constant does when assigned to an object in javascript](./base/snippets/constant assign to object.md) (13 January 2026) `snippet` `javascript`
+- [What constant does when assigned to an object in javascript](./base/snippets/constant-assign-to-object.md) (13 January 2026) `snippet` `javascript`
 - [Javascript map data structure, some introductory notes](./base/notes/javascript_map_structure.md) (13 January 2026) `longer-note` `javascript`
 - [Single page view transitions and dialogs](./base/notes/singe-page-view-transitions-and-dialogs.md) (21 October 2025) `longer-note` `javascript`
 - [Adding event listeners in JavaScript - data attribute event delegation](./base/notes/event-listener-delegation-data-attribute.md) (10 October 2025) `longer-note` `javascript`
@@ -258,7 +258,7 @@ All markdown files in subfolders of the `base` directory are indexed.
 <summary>
 
 ### `snippet` (32)</summary>
-- [What constant does when assigned to an object in javascript](./base/snippets/constant assign to object.md) (13 January 2026) `snippet` `javascript`
+- [What constant does when assigned to an object in javascript](./base/snippets/constant-assign-to-object.md) (13 January 2026) `snippet` `javascript`
 - [How to add some spring or bounce in your CSS transitions](./base/snippets/css-spring-transitions.md) (30 October 2025) `snippet` `css`
 - [CSS grid and repeating columns which wrap](./base/snippets/css-grid-columns-that-wrap.md) (12 October 2025) `snippet` `css`
 - [Using secrets in GitHub codespaces](./base/snippets/github-codespaces-secrets.md) (15 August 2025) `snippet` `github-codespaces`
