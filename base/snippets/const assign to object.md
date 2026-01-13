@@ -1,6 +1,6 @@
 ---
-title: What const does when assigned to an object in javascript
-tags: [javascript]
+title: What constant does when assigned to an object in javascript
+tags: javascript
 date: 2026-01-13
 ---
 # What const does when assigned to an object in javascript
