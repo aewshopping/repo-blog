@@ -10,19 +10,19 @@ All markdown files in subfolders of the `base` directory are indexed.
 
 ## Tags used
 
-[`airtable`](#airtable-1)&#8197;[`all`](#all-42)&#8197;[`ascii`](#ascii-1)&#8197;[`css`](#css-8)&#8197;[`csv`](#csv-1)&#8197;[`eleventy`](#eleventy-5)&#8197;[`epub`](#epub-2)&#8197;[`git`](#git-3)&#8197;[`github`](#github-2)&#8197;[`github-actions`](#github-actions-5)&#8197;[`github-codespaces`](#github-codespaces-1)&#8197;[`github-pages`](#github-pages-1)&#8197;[`googlesheets`](#googlesheets-1)&#8197;[`html`](#html-3)&#8197;[`javascript`](#javascript-8)&#8197;[`longer-note`](#longer-note-12)&#8197;[`miller`](#miller-1)&#8197;[`nunjucks`](#nunjucks-2)&#8197;[`regex`](#regex-5)&#8197;[`snippet`](#snippet-30)&#8197;[`sqlite`](#sqlite-7)&#8197;[`tsv`](#tsv-1)&#8197;[`word`](#word-1)&#8197;
+[`airtable`](#airtable-1)&#8197;[`all`](#all-46)&#8197;[`ascii`](#ascii-1)&#8197;[`css`](#css-9)&#8197;[`csv`](#csv-1)&#8197;[`eleventy`](#eleventy-5)&#8197;[`epub`](#epub-2)&#8197;[`git`](#git-3)&#8197;[`github`](#github-2)&#8197;[`github-actions`](#github-actions-5)&#8197;[`github-codespaces`](#github-codespaces-1)&#8197;[`github-pages`](#github-pages-1)&#8197;[`googlesheets`](#googlesheets-1)&#8197;[`html`](#html-3)&#8197;[`javascript`](#javascript-11)&#8197;[`longer-note`](#longer-note-14)&#8197;[`miller`](#miller-1)&#8197;[`nunjucks`](#nunjucks-2)&#8197;[`regex`](#regex-5)&#8197;[`snippet`](#snippet-32)&#8197;[`sqlite`](#sqlite-7)&#8197;[`tsv`](#tsv-1)&#8197;[`word`](#word-1)&#8197;
 
 ## Most recent notes
+- [What constant does when assigned to an object in javascript](./base/snippets/const assign to object.md) (13 January 2026) `snippet` `javascript`
+- [Javascript map data structure, some introductory notes](./base/notes/javascript_map_structure.md) (13 January 2026) `longer-note` `javascript`
+- [How to add some spring or bounce in your CSS transitions](./base/snippets/css-spring-transitions.md) (30 October 2025) `snippet` `css`
+- [Single page view transitions and dialogs](./base/notes/singe-page-view-transitions-and-dialogs.md) (21 October 2025) `longer-note` `javascript`
 - [CSS grid and repeating columns which wrap](./base/snippets/css-grid-columns-that-wrap.md) (12 October 2025) `snippet` `css`
 - [Adding event listeners in JavaScript - data attribute event delegation](./base/notes/event-listener-delegation-data-attribute.md) (10 October 2025) `longer-note` `javascript`
 - [Random epub notes](./base/notes/epub-random-notes.md) (12 September 2025) `longer-note` `epub`
 - [Converting html to pdf or epub file](./base/notes/book-creation-and-conversion.md) (11 September 2025) `longer-note` `epub`
 - [Opening an html file with microsoft word - how to use css to control styles and layouts](./base/notes/html-to-word.md) (21 August 2025) `longer-note` `css` `word` `html` `eleventy`
 - [Using secrets in GitHub codespaces](./base/snippets/github-codespaces-secrets.md) (15 August 2025) `snippet` `github-codespaces`
-- [Creating an empty branch with GitHub Actions](./base/snippets/orphan-branch.md) (29 June 2025) `snippet` `github-actions` `git`
-- [Committing to a different branch](./base/snippets/commit-to-alt-branch.md) (29 June 2025) `snippet` `github-actions` `git`
-- [Loading an sqlite database from remote github url for processing with sql.js](./base/notes/load-sqlite-from-gh.md) (22 June 2025) `longer-note` `sqlite` `github`
-- [Inadvisable git commands](./base/snippets/inadvisable-git.md) (21 June 2025) `snippet` `git`
 
 ## Notes grouped by tag
 
@@ -36,7 +36,11 @@ All markdown files in subfolders of the `base` directory are indexed.
 <details>
 <summary>
 
-### `all` (42)</summary>
+### `all` (46)</summary>
+- [What constant does when assigned to an object in javascript](./base/snippets/const assign to object.md) (13 January 2026) `snippet` `javascript`
+- [Javascript map data structure, some introductory notes](./base/notes/javascript_map_structure.md) (13 January 2026) `longer-note` `javascript`
+- [How to add some spring or bounce in your CSS transitions](./base/snippets/css-spring-transitions.md) (30 October 2025) `snippet` `css`
+- [Single page view transitions and dialogs](./base/notes/singe-page-view-transitions-and-dialogs.md) (21 October 2025) `longer-note` `javascript`
 - [CSS grid and repeating columns which wrap](./base/snippets/css-grid-columns-that-wrap.md) (12 October 2025) `snippet` `css`
 - [Adding event listeners in JavaScript - data attribute event delegation](./base/notes/event-listener-delegation-data-attribute.md) (10 October 2025) `longer-note` `javascript`
 - [Random epub notes](./base/notes/epub-random-notes.md) (12 September 2025) `longer-note` `epub`
@@ -91,7 +95,8 @@ All markdown files in subfolders of the `base` directory are indexed.
 <details>
 <summary>
 
-### `css` (8)</summary>
+### `css` (9)</summary>
+- [How to add some spring or bounce in your CSS transitions](./base/snippets/css-spring-transitions.md) (30 October 2025) `snippet` `css`
 - [CSS grid and repeating columns which wrap](./base/snippets/css-grid-columns-that-wrap.md) (12 October 2025) `snippet` `css`
 - [Opening an html file with microsoft word - how to use css to control styles and layouts](./base/notes/html-to-word.md) (21 August 2025) `longer-note` `css` `word` `html` `eleventy`
 - [css paragraph text height](./base/snippets/css-para-height.md) (31 March 2025) `snippet` `css`
@@ -189,7 +194,10 @@ All markdown files in subfolders of the `base` directory are indexed.
 <details>
 <summary>
 
-### `javascript` (8)</summary>
+### `javascript` (11)</summary>
+- [What constant does when assigned to an object in javascript](./base/snippets/const assign to object.md) (13 January 2026) `snippet` `javascript`
+- [Javascript map data structure, some introductory notes](./base/notes/javascript_map_structure.md) (13 January 2026) `longer-note` `javascript`
+- [Single page view transitions and dialogs](./base/notes/singe-page-view-transitions-and-dialogs.md) (21 October 2025) `longer-note` `javascript`
 - [Adding event listeners in JavaScript - data attribute event delegation](./base/notes/event-listener-delegation-data-attribute.md) (10 October 2025) `longer-note` `javascript`
 - [matchAll output from javascript is like this](./base/snippets/matchall-array-output.md) (23 January 2025) `snippet` `regex` `javascript`
 - [How to use &quot;For loops&quot; to access values in JavaScript object and arrays](./base/notes/loops-javascript-objects-and-arrays.md) (21 January 2025) `longer-note` `javascript`
@@ -203,7 +211,9 @@ All markdown files in subfolders of the `base` directory are indexed.
 <details>
 <summary>
 
-### `longer-note` (12)</summary>
+### `longer-note` (14)</summary>
+- [Javascript map data structure, some introductory notes](./base/notes/javascript_map_structure.md) (13 January 2026) `longer-note` `javascript`
+- [Single page view transitions and dialogs](./base/notes/singe-page-view-transitions-and-dialogs.md) (21 October 2025) `longer-note` `javascript`
 - [Adding event listeners in JavaScript - data attribute event delegation](./base/notes/event-listener-delegation-data-attribute.md) (10 October 2025) `longer-note` `javascript`
 - [Random epub notes](./base/notes/epub-random-notes.md) (12 September 2025) `longer-note` `epub`
 - [Converting html to pdf or epub file](./base/notes/book-creation-and-conversion.md) (11 September 2025) `longer-note` `epub`
@@ -247,7 +257,9 @@ All markdown files in subfolders of the `base` directory are indexed.
 <details>
 <summary>
 
-### `snippet` (30)</summary>
+### `snippet` (32)</summary>
+- [What constant does when assigned to an object in javascript](./base/snippets/const assign to object.md) (13 January 2026) `snippet` `javascript`
+- [How to add some spring or bounce in your CSS transitions](./base/snippets/css-spring-transitions.md) (30 October 2025) `snippet` `css`
 - [CSS grid and repeating columns which wrap](./base/snippets/css-grid-columns-that-wrap.md) (12 October 2025) `snippet` `css`
 - [Using secrets in GitHub codespaces](./base/snippets/github-codespaces-secrets.md) (15 August 2025) `snippet` `github-codespaces`
 - [Creating an empty branch with GitHub Actions](./base/snippets/orphan-branch.md) (29 June 2025) `snippet` `github-actions` `git`
